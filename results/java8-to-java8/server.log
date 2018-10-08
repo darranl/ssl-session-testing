@@ -1,0 +1,1827 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ssl-session-testing 1.0.0.Alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:exec (default-cli) @ ssl-session-testing ---
+
+ * * Server * *
+
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: TLS_DH_anon_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: SSL_RSA_WITH_DES_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_DES_CBC_MD5
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_NULL_SHA
+Ignoring disabled cipher suite: SSL_DH_anon_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: SSL_DH_anon_WITH_DES_CBC_SHA
+Ignoring disabled cipher suite: TLS_DH_anon_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_DES_CBC_SHA
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_DHE_RSA_WITH_DES_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_3DES_EDE_CBC_MD5
+Ignoring disabled cipher suite: SSL_DH_anon_WITH_RC4_128_MD5
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_DH_anon_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_anon_WITH_NULL_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_anon_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_DHE_DSS_WITH_DES_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_RC4_40_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Ignoring disabled cipher suite: SSL_RSA_EXPORT_WITH_DES40_CBC_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: SSL_RSA_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_RC4_128_MD5
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_NULL_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_RC4_128_MD5
+Ignoring disabled cipher suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Ignoring disabled cipher suite: SSL_RSA_WITH_NULL_MD5
+Ignoring disabled cipher suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Ignoring disabled cipher suite: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Ignoring disabled cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+***
+found key for : scarab
+chain [0] = [
+[
+  Version: V3
+  Subject: OU=Elytron, O=Elytron, C=UK, ST=Elytron, CN=Scarab
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 21188696229915318675168477949957052511705601302680651054221903125422017730055322317921696465977738836653601354256574792306910880875412619136614317484047161244195116610694637045305133653577622474559981695171409548579580014693318024420084012821223185813079220513812802562768480947465567612941829090626964584630683694414923575386973583000084352332200445627357377675231854039572732253709497544500078865258868467079910463585730973243705814193436594034124915871948636172006067052233724064988538101263887574949762051884737595763198650744456833757599313126206427113886156967861774766200149513898886547843566246598404053100063
+  public exponent: 65537
+  Validity: [From: Fri Jan 29 10:58:22 GMT 2016,
+               To: Mon Jan 26 10:58:22 GMT 2026]
+  Issuer: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  SerialNumber: [    04]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: C8 2B 52 D4 F2 76 D1 E6   7C D1 0B 5A 1F 47 47 21  .+R..v.....Z.GG!
+0010: 2D 2C 03 2C EC 05 06 77   A8 5B DF 45 B2 CB 39 F5  -,.,...w.[.E..9.
+0020: 80 51 38 5E 53 38 65 D3   F8 96 A5 8E 42 91 DE D0  .Q8^S8e.....B...
+0030: C9 13 23 12 C9 AF DA BD   4D 87 2A A0 47 8D 17 7D  ..#.....M.*.G...
+0040: 4F C8 1E 2B 54 78 13 9B   7C 62 40 84 1C F7 D9 22  O..+Tx...b@...."
+0050: 41 B9 CF 64 E3 CC CB 7A   D8 A3 EC 8F FB CD 88 0E  A..d...z........
+0060: D0 50 23 EC 0C 73 28 13   4A 7D BC B0 B4 07 A4 3C  .P#..s(.J......<
+0070: 87 4F 18 4F 83 8E 5A 84   29 81 99 0E CC 29 13 E2  .O.O..Z.)....)..
+0080: FC EA 42 D2 2D DF 8C 58   01 1D C8 55 AC E9 17 93  ..B.-..X...U....
+0090: 0B 29 E0 33 B7 C0 62 9A   C0 D7 9F 17 8F 2C D2 F9  .).3..b......,..
+00A0: 1F 9D D9 0B 79 32 2C 5A   D1 C2 F4 DF 74 A6 4F 14  ....y2,Z....t.O.
+00B0: 7E 4A 8A 53 C4 7E 5D 21   18 78 67 53 40 9F E0 09  .J.S..]!.xgS@...
+00C0: FF 62 09 79 87 03 C8 95   D8 AF 9E A5 A2 7B 7F 51  .b.y...........Q
+00D0: 90 C1 CB 51 7C CD CE F7   91 63 C7 D7 52 AD 76 A0  ...Q.....c..R.v.
+00E0: 49 84 22 40 2E DC 09 1E   B0 96 E3 6C 58 DA E4 CE  I."@.......lX...
+00F0: F4 5E 3D 47 C2 29 4C F7   50 7B 27 00 18 56 3A 6C  .^=G.)L.P.'..V:l
+
+]
+chain [1] = [
+[
+  Version: V3
+  Subject: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 27345298415103023454212379703677759667713026436503082254657843008520775133140687452552711352417130601074417055312668832830276032717021468528652836990508970086534681790228901131076911592977514407143757376923873127085668132679201517226358824951560733532747294121741168321985565465305331974478745861485578386702514908365914779357835965554362129481356958670951183332535035488599181216126391903561305444426077908459070610984594057693395630994637040784202410047485773106218362621300484760701998318438379207824413761446778265406524167830527225257227208192000889811975297196172856390889114143303120748632805651734634236884153
+  public exponent: 65537
+  Validity: [From: Thu Jan 28 19:07:14 GMT 2016,
+               To: Sun Jan 25 19:07:14 GMT 2026]
+  Issuer: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  SerialNumber: [    d3a3736b beb2a6ab]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: D2 66 59 95 8D 74 9E 78   86 AF 73 8B 61 9E 55 F1  .fY..t.x..s.a.U.
+0010: 0B E5 11 28 65 96 BC 20   DC A9 4A 3D 4E 4B 93 F5  ...(e.. ..J=NK..
+0020: 34 CC 6D 6C B5 85 86 7A   8A E4 99 82 2E C9 57 AF  4.ml...z......W.
+0030: C6 B1 C2 21 8A 44 01 FD   DF 99 B6 51 6D 99 42 94  ...!.D.....Qm.B.
+0040: 41 38 81 52 BA 40 22 12   A9 B9 1D 3D 0A E0 74 F4  A8.R.@"....=..t.
+0050: 84 AB B8 72 2E DF C0 CA   CD 11 B1 10 29 89 D7 4C  ...r........)..L
+0060: 43 F8 6E 98 CC 45 66 02   1F 61 73 E2 03 87 38 EA  C.n..Ef..as...8.
+0070: 98 E3 30 A2 DB 8A 47 1D   D6 52 80 99 C2 52 CA 78  ..0...G..R...R.x
+0080: B1 16 84 E1 AA 7F 20 00   E9 07 6D 96 7D FB F4 B4  ...... ...m.....
+0090: 06 2F 87 2E DD 60 56 76   C0 B2 6A CA AA D7 62 D7  ./...`Vv..j...b.
+00A0: 87 7F 58 97 69 2F 1A 54   9A 00 00 DF DA 15 97 9A  ..X.i/.T........
+00B0: 1A B0 6F 08 98 85 E7 5C   85 3B B7 21 3D A4 D0 43  ..o....\.;.!=..C
+00C0: B5 F3 9C C7 0A 45 FC 29   E1 EA 4A 9C 1A 81 CB 02  .....E.)..J.....
+00D0: BC 30 42 E4 A8 EB 0F 5F   A4 E4 35 02 C6 E3 4F 3E  .0B...._..5...O>
+00E0: 31 9D 61 D3 3D EC 16 09   F7 1F 29 2E AA 98 49 FD  1.a.=.....)...I.
+00F0: DD CD 03 7E CF C5 55 CD   5F D9 01 17 76 C2 C7 32  ......U._...v..2
+
+]
+***
+adding as trusted cert:
+  Subject: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  Issuer:  O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  Algorithm: RSA; Serial number: 0xd3a3736bbeb2a6ab
+  Valid from Thu Jan 28 19:07:14 GMT 2016 until Sun Jan 25 19:07:14 GMT 2026
+
+trigger seeding of SecureRandom
+done seeding SecureRandom
+
+ * * About to start accepting. * *
+
+
+ * * SSL Session Information - START * *
+
+0 Sessions
+
+ * * SSL Session Information - END * *
+
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+[Raw read]: length = 5
+0000: 16 03 03 00 8F                                     .....
+[Raw read]: length = 143
+0000: 01 00 00 8B 03 03 5B BB   72 67 26 B6 74 9C 7C 39  ......[.rg&.t..9
+0010: 5B 00 D4 94 39 A1 43 AD   55 B9 D2 89 80 1F 89 7A  [...9.C.U......z
+0020: 55 7B D7 96 C8 A3 00 00   32 C0 24 C0 28 00 3D 00  U.......2.$.(.=.
+0030: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0040: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0050: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0060: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0070: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+0080: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+main, READ: TLSv1.2 Handshake, length = 143
+*** ClientHello, TLSv1.2
+RandomCookie:  GMT: 1522233959 bytes = { 38, 182, 116, 156, 124, 57, 91, 0, 212, 148, 57, 161, 67, 173, 85, 185, 210, 137, 128, 31, 137, 122, 85, 123, 215, 150, 200, 163 }
+Session ID:  {}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, secp384r1, secp521r1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA224withECDSA, SHA224withRSA, SHA1withECDSA, SHA1withRSA
+Extension extended_master_secret
+***
+[read] MD5 and SHA1 hashes:  len = 143
+0000: 01 00 00 8B 03 03 5B BB   72 67 26 B6 74 9C 7C 39  ......[.rg&.t..9
+0010: 5B 00 D4 94 39 A1 43 AD   55 B9 D2 89 80 1F 89 7A  [...9.C.U......z
+0020: 55 7B D7 96 C8 A3 00 00   32 C0 24 C0 28 00 3D 00  U.......2.$.(.=.
+0030: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0040: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0050: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0060: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0070: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+0080: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+%% Initialized:  [Session-1, SSL_NULL_WITH_NULL_NULL]
+matching alias: scarab
+Standard ciphersuite chosen: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+%% Negotiating:  [Session-1, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]
+*** ServerHello, TLSv1.2
+RandomCookie:  GMT: 1522233959 bytes = { 55, 46, 19, 122, 226, 253, 194, 81, 122, 227, 240, 188, 149, 30, 206, 39, 175, 208, 20, 74, 218, 22, 32, 194, 102, 164, 174, 20 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+Extension extended_master_secret
+***
+Cipher suite:  TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+*** Certificate chain
+chain [0] = [
+[
+  Version: V3
+  Subject: OU=Elytron, O=Elytron, C=UK, ST=Elytron, CN=Scarab
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 21188696229915318675168477949957052511705601302680651054221903125422017730055322317921696465977738836653601354256574792306910880875412619136614317484047161244195116610694637045305133653577622474559981695171409548579580014693318024420084012821223185813079220513812802562768480947465567612941829090626964584630683694414923575386973583000084352332200445627357377675231854039572732253709497544500078865258868467079910463585730973243705814193436594034124915871948636172006067052233724064988538101263887574949762051884737595763198650744456833757599313126206427113886156967861774766200149513898886547843566246598404053100063
+  public exponent: 65537
+  Validity: [From: Fri Jan 29 10:58:22 GMT 2016,
+               To: Mon Jan 26 10:58:22 GMT 2026]
+  Issuer: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  SerialNumber: [    04]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: C8 2B 52 D4 F2 76 D1 E6   7C D1 0B 5A 1F 47 47 21  .+R..v.....Z.GG!
+0010: 2D 2C 03 2C EC 05 06 77   A8 5B DF 45 B2 CB 39 F5  -,.,...w.[.E..9.
+0020: 80 51 38 5E 53 38 65 D3   F8 96 A5 8E 42 91 DE D0  .Q8^S8e.....B...
+0030: C9 13 23 12 C9 AF DA BD   4D 87 2A A0 47 8D 17 7D  ..#.....M.*.G...
+0040: 4F C8 1E 2B 54 78 13 9B   7C 62 40 84 1C F7 D9 22  O..+Tx...b@...."
+0050: 41 B9 CF 64 E3 CC CB 7A   D8 A3 EC 8F FB CD 88 0E  A..d...z........
+0060: D0 50 23 EC 0C 73 28 13   4A 7D BC B0 B4 07 A4 3C  .P#..s(.J......<
+0070: 87 4F 18 4F 83 8E 5A 84   29 81 99 0E CC 29 13 E2  .O.O..Z.)....)..
+0080: FC EA 42 D2 2D DF 8C 58   01 1D C8 55 AC E9 17 93  ..B.-..X...U....
+0090: 0B 29 E0 33 B7 C0 62 9A   C0 D7 9F 17 8F 2C D2 F9  .).3..b......,..
+00A0: 1F 9D D9 0B 79 32 2C 5A   D1 C2 F4 DF 74 A6 4F 14  ....y2,Z....t.O.
+00B0: 7E 4A 8A 53 C4 7E 5D 21   18 78 67 53 40 9F E0 09  .J.S..]!.xgS@...
+00C0: FF 62 09 79 87 03 C8 95   D8 AF 9E A5 A2 7B 7F 51  .b.y...........Q
+00D0: 90 C1 CB 51 7C CD CE F7   91 63 C7 D7 52 AD 76 A0  ...Q.....c..R.v.
+00E0: 49 84 22 40 2E DC 09 1E   B0 96 E3 6C 58 DA E4 CE  I."@.......lX...
+00F0: F4 5E 3D 47 C2 29 4C F7   50 7B 27 00 18 56 3A 6C  .^=G.)L.P.'..V:l
+
+]
+chain [1] = [
+[
+  Version: V3
+  Subject: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 27345298415103023454212379703677759667713026436503082254657843008520775133140687452552711352417130601074417055312668832830276032717021468528652836990508970086534681790228901131076911592977514407143757376923873127085668132679201517226358824951560733532747294121741168321985565465305331974478745861485578386702514908365914779357835965554362129481356958670951183332535035488599181216126391903561305444426077908459070610984594057693395630994637040784202410047485773106218362621300484760701998318438379207824413761446778265406524167830527225257227208192000889811975297196172856390889114143303120748632805651734634236884153
+  public exponent: 65537
+  Validity: [From: Thu Jan 28 19:07:14 GMT 2016,
+               To: Sun Jan 25 19:07:14 GMT 2026]
+  Issuer: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  SerialNumber: [    d3a3736b beb2a6ab]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: D2 66 59 95 8D 74 9E 78   86 AF 73 8B 61 9E 55 F1  .fY..t.x..s.a.U.
+0010: 0B E5 11 28 65 96 BC 20   DC A9 4A 3D 4E 4B 93 F5  ...(e.. ..J=NK..
+0020: 34 CC 6D 6C B5 85 86 7A   8A E4 99 82 2E C9 57 AF  4.ml...z......W.
+0030: C6 B1 C2 21 8A 44 01 FD   DF 99 B6 51 6D 99 42 94  ...!.D.....Qm.B.
+0040: 41 38 81 52 BA 40 22 12   A9 B9 1D 3D 0A E0 74 F4  A8.R.@"....=..t.
+0050: 84 AB B8 72 2E DF C0 CA   CD 11 B1 10 29 89 D7 4C  ...r........)..L
+0060: 43 F8 6E 98 CC 45 66 02   1F 61 73 E2 03 87 38 EA  C.n..Ef..as...8.
+0070: 98 E3 30 A2 DB 8A 47 1D   D6 52 80 99 C2 52 CA 78  ..0...G..R...R.x
+0080: B1 16 84 E1 AA 7F 20 00   E9 07 6D 96 7D FB F4 B4  ...... ...m.....
+0090: 06 2F 87 2E DD 60 56 76   C0 B2 6A CA AA D7 62 D7  ./...`Vv..j...b.
+00A0: 87 7F 58 97 69 2F 1A 54   9A 00 00 DF DA 15 97 9A  ..X.i/.T........
+00B0: 1A B0 6F 08 98 85 E7 5C   85 3B B7 21 3D A4 D0 43  ..o....\.;.!=..C
+00C0: B5 F3 9C C7 0A 45 FC 29   E1 EA 4A 9C 1A 81 CB 02  .....E.)..J.....
+00D0: BC 30 42 E4 A8 EB 0F 5F   A4 E4 35 02 C6 E3 4F 3E  .0B...._..5...O>
+00E0: 31 9D 61 D3 3D EC 16 09   F7 1F 29 2E AA 98 49 FD  1.a.=.....)...I.
+00F0: DD CD 03 7E CF C5 55 CD   5F D9 01 17 76 C2 C7 32  ......U._...v..2
+
+]
+***
+*** ECDH ServerKeyExchange
+Signature Algorithm SHA512withRSA
+Server key: Sun EC public key, 256 bits
+  public x coord: 73722425422633687726060698240014599231029639153935562143691952341437678896651
+  public y coord: 45626378182525178156630014443379554236499134373263459498835573947812328082473
+  parameters: secp256r1 [NIST P-256, X9.62 prime256v1] (1.2.840.10045.3.1.7)
+*** CertificateRequest
+Cert Types: RSA, DSS, ECDSA
+Supported Signature Algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA224withECDSA, SHA224withRSA, SHA1withECDSA, SHA1withRSA
+Cert Authorities:
+<O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA>
+*** ServerHelloDone
+[write] MD5 and SHA1 hashes:  len = 2370
+0000: 02 00 00 51 03 03 5B BB   72 67 37 2E 13 7A E2 FD  ...Q..[.rg7..z..
+0010: C2 51 7A E3 F0 BC 95 1E   CE 27 AF D0 14 4A DA 16  .Qz......'...J..
+0020: 20 C2 66 A4 AE 14 20 5B   BB 72 67 36 A5 BC DF 57   .f... [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 C0   28 00 00 09 FF 01 00 01  gZ.f....(.......
+0050: 00 00 17 00 00 0B 00 06   F7 00 06 F4 00 03 5D 30  ..............]0
+0060: 82 03 59 30 82 02 41 A0   03 02 01 02 02 01 04 30  ..Y0..A........0
+0070: 0D 06 09 2A 86 48 86 F7   0D 01 01 05 05 00 30 7D  ...*.H........0.
+0080: 31 13 30 11 06 03 55 04   03 0C 0A 45 6C 79 74 72  1.0...U....Elytr
+0090: 6F 6E 20 43 41 31 10 30   0E 06 03 55 04 08 0C 07  on CA1.0...U....
+00A0: 45 6C 79 74 72 6F 6E 31   0B 30 09 06 03 55 04 06  Elytron1.0...U..
+00B0: 13 02 55 4B 31 22 30 20   06 09 2A 86 48 86 F7 0D  ..UK1"0 ..*.H...
+00C0: 01 09 01 16 13 65 6C 79   74 72 6F 6E 40 77 69 6C  .....elytron@wil
+00D0: 64 66 6C 79 2E 6F 72 67   31 23 30 21 06 03 55 04  dfly.org1#0!..U.
+00E0: 0A 0C 1A 52 6F 6F 74 20   43 65 72 74 69 66 69 63  ...Root Certific
+00F0: 61 74 65 20 41 75 74 68   6F 72 69 74 79 30 1E 17  ate Authority0..
+0100: 0D 31 36 30 31 32 39 31   30 35 38 32 32 5A 17 0D  .160129105822Z..
+0110: 32 36 30 31 32 36 31 30   35 38 32 32 5A 30 54 31  260126105822Z0T1
+0120: 0F 30 0D 06 03 55 04 03   13 06 53 63 61 72 61 62  .0...U....Scarab
+0130: 31 10 30 0E 06 03 55 04   08 13 07 45 6C 79 74 72  1.0...U....Elytr
+0140: 6F 6E 31 0B 30 09 06 03   55 04 06 13 02 55 4B 31  on1.0...U....UK1
+0150: 10 30 0E 06 03 55 04 0A   13 07 45 6C 79 74 72 6F  .0...U....Elytro
+0160: 6E 31 10 30 0E 06 03 55   04 0B 13 07 45 6C 79 74  n1.0...U....Elyt
+0170: 72 6F 6E 30 82 01 22 30   0D 06 09 2A 86 48 86 F7  ron0.."0...*.H..
+0180: 0D 01 01 01 05 00 03 82   01 0F 00 30 82 01 0A 02  ...........0....
+0190: 82 01 01 00 A7 D8 C8 40   10 21 2C 71 16 DF E6 70  .......@.!,q...p
+01A0: 75 FF 1E 85 CF 70 38 A0   7F 06 A1 DC 25 68 9C 1A  u....p8.....%h..
+01B0: 7D 8F A7 F4 37 15 44 31   CA 02 9E 3C C8 66 68 C6  ....7.D1...<.fh.
+01C0: 0D 4C A7 AF 1B 68 E6 D8   95 EC 2B 57 48 92 2D 5D  .L...h....+WH.-]
+01D0: DE AA B4 1F EB B0 F3 75   41 7E 04 25 B2 EF 03 7E  .......uA..%....
+01E0: 9A C4 60 83 5B F7 33 D2   0A 88 6C E8 D9 52 66 E4  ..`.[.3...l..Rf.
+01F0: 1D 32 A2 6F CA 29 17 80   C5 A0 AA 2E EE B3 45 5B  .2.o.)........E[
+0200: 0D 7A 21 1C C7 D4 76 F7   8F 1A 52 F4 89 6E 92 FF  .z!...v...R..n..
+0210: 61 DC CF 61 6F 5A 27 57   49 8D 25 86 8E CF D1 77  a..aoZ'WI.%....w
+0220: 07 61 00 17 F5 8F CD 2E   03 C5 DF A2 C8 83 F0 56  .a.............V
+0230: 4F 21 2E D5 CA 60 7A C9   06 0F 50 52 BD FD D3 CE  O!...`z...PR....
+0240: 34 BF 7F 07 B8 54 42 25   21 89 55 44 CF DD B5 F0  4....TB%!.UD....
+0250: 97 98 9A 5F 7A BA A0 CE   FF 0C 35 66 48 16 BF 5B  ..._z.....5fH..[
+0260: 48 77 67 12 E1 78 67 18   5F 50 4B 6F 19 43 05 F0  Hwg..xg._PKo.C..
+0270: 6A 74 CE FA 4D 9A 15 F4   89 6B 58 A5 90 AF 53 F4  jt..M....kX...S.
+0280: 18 64 E3 10 43 18 8A FD   E9 2D 22 A3 94 49 15 51  .d..C....-"..I.Q
+0290: C6 BB 66 1F 02 03 01 00   01 A3 0D 30 0B 30 09 06  ..f........0.0..
+02A0: 03 55 1D 13 04 02 30 00   30 0D 06 09 2A 86 48 86  .U....0.0...*.H.
+02B0: F7 0D 01 01 05 05 00 03   82 01 01 00 C8 2B 52 D4  .............+R.
+02C0: F2 76 D1 E6 7C D1 0B 5A   1F 47 47 21 2D 2C 03 2C  .v.....Z.GG!-,.,
+02D0: EC 05 06 77 A8 5B DF 45   B2 CB 39 F5 80 51 38 5E  ...w.[.E..9..Q8^
+02E0: 53 38 65 D3 F8 96 A5 8E   42 91 DE D0 C9 13 23 12  S8e.....B.....#.
+02F0: C9 AF DA BD 4D 87 2A A0   47 8D 17 7D 4F C8 1E 2B  ....M.*.G...O..+
+0300: 54 78 13 9B 7C 62 40 84   1C F7 D9 22 41 B9 CF 64  Tx...b@...."A..d
+0310: E3 CC CB 7A D8 A3 EC 8F   FB CD 88 0E D0 50 23 EC  ...z.........P#.
+0320: 0C 73 28 13 4A 7D BC B0   B4 07 A4 3C 87 4F 18 4F  .s(.J......<.O.O
+0330: 83 8E 5A 84 29 81 99 0E   CC 29 13 E2 FC EA 42 D2  ..Z.)....)....B.
+0340: 2D DF 8C 58 01 1D C8 55   AC E9 17 93 0B 29 E0 33  -..X...U.....).3
+0350: B7 C0 62 9A C0 D7 9F 17   8F 2C D2 F9 1F 9D D9 0B  ..b......,......
+0360: 79 32 2C 5A D1 C2 F4 DF   74 A6 4F 14 7E 4A 8A 53  y2,Z....t.O..J.S
+0370: C4 7E 5D 21 18 78 67 53   40 9F E0 09 FF 62 09 79  ..]!.xgS@....b.y
+0380: 87 03 C8 95 D8 AF 9E A5   A2 7B 7F 51 90 C1 CB 51  ...........Q...Q
+0390: 7C CD CE F7 91 63 C7 D7   52 AD 76 A0 49 84 22 40  .....c..R.v.I."@
+03A0: 2E DC 09 1E B0 96 E3 6C   58 DA E4 CE F4 5E 3D 47  .......lX....^=G
+03B0: C2 29 4C F7 50 7B 27 00   18 56 3A 6C 00 03 91 30  .)L.P.'..V:l...0
+03C0: 82 03 8D 30 82 02 75 A0   03 02 01 02 02 09 00 D3  ...0..u.........
+03D0: A3 73 6B BE B2 A6 AB 30   0D 06 09 2A 86 48 86 F7  .sk....0...*.H..
+03E0: 0D 01 01 05 05 00 30 7D   31 13 30 11 06 03 55 04  ......0.1.0...U.
+03F0: 03 0C 0A 45 6C 79 74 72   6F 6E 20 43 41 31 10 30  ...Elytron CA1.0
+0400: 0E 06 03 55 04 08 0C 07   45 6C 79 74 72 6F 6E 31  ...U....Elytron1
+0410: 0B 30 09 06 03 55 04 06   13 02 55 4B 31 22 30 20  .0...U....UK1"0 
+0420: 06 09 2A 86 48 86 F7 0D   01 09 01 16 13 65 6C 79  ..*.H........ely
+0430: 74 72 6F 6E 40 77 69 6C   64 66 6C 79 2E 6F 72 67  tron@wildfly.org
+0440: 31 23 30 21 06 03 55 04   0A 0C 1A 52 6F 6F 74 20  1#0!..U....Root 
+0450: 43 65 72 74 69 66 69 63   61 74 65 20 41 75 74 68  Certificate Auth
+0460: 6F 72 69 74 79 30 1E 17   0D 31 36 30 31 32 38 31  ority0...1601281
+0470: 39 30 37 31 34 5A 17 0D   32 36 30 31 32 35 31 39  90714Z..26012519
+0480: 30 37 31 34 5A 30 7D 31   13 30 11 06 03 55 04 03  0714Z0.1.0...U..
+0490: 0C 0A 45 6C 79 74 72 6F   6E 20 43 41 31 10 30 0E  ..Elytron CA1.0.
+04A0: 06 03 55 04 08 0C 07 45   6C 79 74 72 6F 6E 31 0B  ..U....Elytron1.
+04B0: 30 09 06 03 55 04 06 13   02 55 4B 31 22 30 20 06  0...U....UK1"0 .
+04C0: 09 2A 86 48 86 F7 0D 01   09 01 16 13 65 6C 79 74  .*.H........elyt
+04D0: 72 6F 6E 40 77 69 6C 64   66 6C 79 2E 6F 72 67 31  ron@wildfly.org1
+04E0: 23 30 21 06 03 55 04 0A   0C 1A 52 6F 6F 74 20 43  #0!..U....Root C
+04F0: 65 72 74 69 66 69 63 61   74 65 20 41 75 74 68 6F  ertificate Autho
+0500: 72 69 74 79 30 82 01 22   30 0D 06 09 2A 86 48 86  rity0.."0...*.H.
+0510: F7 0D 01 01 01 05 00 03   82 01 0F 00 30 82 01 0A  ............0...
+0520: 02 82 01 01 00 D8 9D D2   3B 3F 35 69 40 F0 75 2D  ........;?5i@.u-
+0530: CA CC 7F 01 61 F2 FE EF   1B 9E 27 DA 72 81 8E 16  ....a.....'.r...
+0540: 3A 33 6D F1 25 7D 26 BA   D3 50 80 4C AA 75 78 6A  :3m.%.&..P.L.uxj
+0550: 95 D0 1E AC D7 BF 57 B8   88 FA 50 CC 09 A8 AE A8  ......W...P.....
+0560: 33 4E 5E 15 99 B7 E7 74   ED EF E1 B9 0B 6F EE 81  3N^....t.....o..
+0570: A5 3B 1D 6F 61 31 57 FD   D5 28 B7 38 AE 82 BA 72  .;.oa1W..(.8...r
+0580: BD 11 68 F5 F4 EA D4 07   1E DE 3B 7E FA 73 03 D4  ..h.......;..s..
+0590: BA 50 AC E7 5A 6E 4C A0   23 7B 33 02 29 B4 D2 44  .P..ZnL.#.3.)..D
+05A0: 93 DD 3F 06 62 07 F2 3E   2E A6 5D A2 96 B6 79 08  ..?.b..>..]...y.
+05B0: 10 CE C2 6A 20 67 FD DD   85 A3 A5 7D D4 1E 7A 8E  ...j g........z.
+05C0: 6E EB DA 89 E5 1D 4C 8C   8C F3 D2 D1 D5 57 A3 AC  n.....L......W..
+05D0: 04 9D CF 96 96 0F AD 80   E6 C8 BF 82 5E 2D FB 5A  ............^-.Z
+05E0: 51 CB 00 E2 16 44 3C 3D   68 4B 92 6E D0 22 86 A2  Q....D<=hK.n."..
+05F0: 9D C8 45 D9 4B 6C 48 E6   60 1B 96 8A AA D7 7D 73  ..E.KlH.`......s
+0600: AD CD FB 7B B0 C4 C3 F9   A9 27 F4 52 86 09 89 0F  .........'.R....
+0610: 76 E6 68 E5 34 AA 14 39   68 F6 ED F4 00 A8 CB D5  v.h.4..9h.......
+0620: F4 45 F6 34 B9 02 03 01   00 01 A3 10 30 0E 30 0C  .E.4........0.0.
+0630: 06 03 55 1D 13 04 05 30   03 01 01 FF 30 0D 06 09  ..U....0....0...
+0640: 2A 86 48 86 F7 0D 01 01   05 05 00 03 82 01 01 00  *.H.............
+0650: D2 66 59 95 8D 74 9E 78   86 AF 73 8B 61 9E 55 F1  .fY..t.x..s.a.U.
+0660: 0B E5 11 28 65 96 BC 20   DC A9 4A 3D 4E 4B 93 F5  ...(e.. ..J=NK..
+0670: 34 CC 6D 6C B5 85 86 7A   8A E4 99 82 2E C9 57 AF  4.ml...z......W.
+0680: C6 B1 C2 21 8A 44 01 FD   DF 99 B6 51 6D 99 42 94  ...!.D.....Qm.B.
+0690: 41 38 81 52 BA 40 22 12   A9 B9 1D 3D 0A E0 74 F4  A8.R.@"....=..t.
+06A0: 84 AB B8 72 2E DF C0 CA   CD 11 B1 10 29 89 D7 4C  ...r........)..L
+06B0: 43 F8 6E 98 CC 45 66 02   1F 61 73 E2 03 87 38 EA  C.n..Ef..as...8.
+06C0: 98 E3 30 A2 DB 8A 47 1D   D6 52 80 99 C2 52 CA 78  ..0...G..R...R.x
+06D0: B1 16 84 E1 AA 7F 20 00   E9 07 6D 96 7D FB F4 B4  ...... ...m.....
+06E0: 06 2F 87 2E DD 60 56 76   C0 B2 6A CA AA D7 62 D7  ./...`Vv..j...b.
+06F0: 87 7F 58 97 69 2F 1A 54   9A 00 00 DF DA 15 97 9A  ..X.i/.T........
+0700: 1A B0 6F 08 98 85 E7 5C   85 3B B7 21 3D A4 D0 43  ..o....\.;.!=..C
+0710: B5 F3 9C C7 0A 45 FC 29   E1 EA 4A 9C 1A 81 CB 02  .....E.)..J.....
+0720: BC 30 42 E4 A8 EB 0F 5F   A4 E4 35 02 C6 E3 4F 3E  .0B...._..5...O>
+0730: 31 9D 61 D3 3D EC 16 09   F7 1F 29 2E AA 98 49 FD  1.a.=.....)...I.
+0740: DD CD 03 7E CF C5 55 CD   5F D9 01 17 76 C2 C7 32  ......U._...v..2
+0750: 0C 00 01 49 03 00 17 41   04 A2 FD 6A 02 36 57 B7  ...I...A...j.6W.
+0760: 8E C7 DB 86 A7 64 29 73   B9 8E E4 61 73 C6 F5 EF  .....d)s...as...
+0770: 9E 10 AE 9B 57 22 08 46   0B 64 DF 9D 69 E1 D3 1D  ....W".F.d..i...
+0780: 87 CD 3F 33 D7 56 48 03   98 3A B8 0F 5A CF 96 FF  ..?3.VH..:..Z...
+0790: 6C E0 18 95 C1 E2 D9 8C   29 06 01 01 00 3C 8A 6E  l.......)....<.n
+07A0: EF 03 59 42 68 26 05 AF   5D 39 BD CA C4 94 91 98  ..YBh&..]9......
+07B0: 04 99 9E 96 9B 80 80 D7   6D 05 96 FC 42 55 9D 87  ........m...BU..
+07C0: AB 38 21 74 F0 FA 55 8E   2A ED F1 4D E1 4D EE BE  .8!t..U.*..M.M..
+07D0: 41 72 F0 FB E8 D9 1B 97   82 C2 24 5A 40 25 D6 B8  Ar........$Z@%..
+07E0: 87 A6 F5 9E AF D6 5F E1   C1 A8 D9 2A 13 1A 38 75  ......_....*..8u
+07F0: EE 90 AA 8A DA 48 AE 67   13 06 6B DD 44 56 7E 31  .....H.g..k.DV.1
+0800: 4D 88 F2 F2 C1 4D 9C 7D   50 99 BA AE 94 58 CA BF  M....M..P....X..
+0810: C9 FC 81 52 83 F9 84 A3   CB 0D F4 4E AA 72 6B C6  ...R.......N.rk.
+0820: A1 99 02 96 DF B2 3C E0   83 DE 56 C0 D5 84 7A A6  ......<...V...z.
+0830: 86 EF CB 49 88 DF E8 CA   16 7A 01 67 8C B8 D9 C6  ...I.....z.g....
+0840: BA 24 78 17 FD 91 AD 7B   3D B6 39 26 27 37 14 9E  .$x.....=.9&'7..
+0850: FD 46 09 0F 35 32 BC 64   A5 9D F0 8D BD A3 66 77  .F..52.d......fw
+0860: DA 85 1E 1F AF 1B 36 A5   6A EC 82 A4 FF CC 64 AF  ......6.j.....d.
+0870: 03 DA 49 C9 A0 3C 44 8C   D8 AA 69 EC EB 68 ED 47  ..I..<D...i..h.G
+0880: 20 D5 41 EE D1 9F EF C4   F9 52 86 7D 87 1E CF 38   .A......R.....8
+0890: F3 52 F3 8C E1 69 96 DD   BE 92 1F 1B 08 0D 00 00  .R...i..........
+08A0: 9D 03 01 02 40 00 14 06   03 06 01 05 03 05 01 04  ....@...........
+08B0: 03 04 01 03 03 03 01 02   03 02 01 00 81 00 7F 30  ...............0
+08C0: 7D 31 13 30 11 06 03 55   04 03 0C 0A 45 6C 79 74  .1.0...U....Elyt
+08D0: 72 6F 6E 20 43 41 31 10   30 0E 06 03 55 04 08 0C  ron CA1.0...U...
+08E0: 07 45 6C 79 74 72 6F 6E   31 0B 30 09 06 03 55 04  .Elytron1.0...U.
+08F0: 06 13 02 55 4B 31 22 30   20 06 09 2A 86 48 86 F7  ...UK1"0 ..*.H..
+0900: 0D 01 09 01 16 13 65 6C   79 74 72 6F 6E 40 77 69  ......elytron@wi
+0910: 6C 64 66 6C 79 2E 6F 72   67 31 23 30 21 06 03 55  ldfly.org1#0!..U
+0920: 04 0A 0C 1A 52 6F 6F 74   20 43 65 72 74 69 66 69  ....Root Certifi
+0930: 63 61 74 65 20 41 75 74   68 6F 72 69 74 79 0E 00  cate Authority..
+0940: 00 00                                              ..
+main, WRITE: TLSv1.2 Handshake, length = 2370
+[Raw write]: length = 2375
+0000: 16 03 03 09 42 02 00 00   51 03 03 5B BB 72 67 37  ....B...Q..[.rg7
+0010: 2E 13 7A E2 FD C2 51 7A   E3 F0 BC 95 1E CE 27 AF  ..z...Qz......'.
+0020: D0 14 4A DA 16 20 C2 66   A4 AE 14 20 5B BB 72 67  ..J.. .f... [.rg
+0030: 36 A5 BC DF 57 49 5D 9C   D5 F3 6D 96 CD DE 4B 59  6...WI]...m...KY
+0040: 7C CD 8C 5C 04 67 5A A6   66 EF D1 14 C0 28 00 00  ...\.gZ.f....(..
+0050: 09 FF 01 00 01 00 00 17   00 00 0B 00 06 F7 00 06  ................
+0060: F4 00 03 5D 30 82 03 59   30 82 02 41 A0 03 02 01  ...]0..Y0..A....
+0070: 02 02 01 04 30 0D 06 09   2A 86 48 86 F7 0D 01 01  ....0...*.H.....
+0080: 05 05 00 30 7D 31 13 30   11 06 03 55 04 03 0C 0A  ...0.1.0...U....
+0090: 45 6C 79 74 72 6F 6E 20   43 41 31 10 30 0E 06 03  Elytron CA1.0...
+00A0: 55 04 08 0C 07 45 6C 79   74 72 6F 6E 31 0B 30 09  U....Elytron1.0.
+00B0: 06 03 55 04 06 13 02 55   4B 31 22 30 20 06 09 2A  ..U....UK1"0 ..*
+00C0: 86 48 86 F7 0D 01 09 01   16 13 65 6C 79 74 72 6F  .H........elytro
+00D0: 6E 40 77 69 6C 64 66 6C   79 2E 6F 72 67 31 23 30  n@wildfly.org1#0
+00E0: 21 06 03 55 04 0A 0C 1A   52 6F 6F 74 20 43 65 72  !..U....Root Cer
+00F0: 74 69 66 69 63 61 74 65   20 41 75 74 68 6F 72 69  tificate Authori
+0100: 74 79 30 1E 17 0D 31 36   30 31 32 39 31 30 35 38  ty0...1601291058
+0110: 32 32 5A 17 0D 32 36 30   31 32 36 31 30 35 38 32  22Z..26012610582
+0120: 32 5A 30 54 31 0F 30 0D   06 03 55 04 03 13 06 53  2Z0T1.0...U....S
+0130: 63 61 72 61 62 31 10 30   0E 06 03 55 04 08 13 07  carab1.0...U....
+0140: 45 6C 79 74 72 6F 6E 31   0B 30 09 06 03 55 04 06  Elytron1.0...U..
+0150: 13 02 55 4B 31 10 30 0E   06 03 55 04 0A 13 07 45  ..UK1.0...U....E
+0160: 6C 79 74 72 6F 6E 31 10   30 0E 06 03 55 04 0B 13  lytron1.0...U...
+0170: 07 45 6C 79 74 72 6F 6E   30 82 01 22 30 0D 06 09  .Elytron0.."0...
+0180: 2A 86 48 86 F7 0D 01 01   01 05 00 03 82 01 0F 00  *.H.............
+0190: 30 82 01 0A 02 82 01 01   00 A7 D8 C8 40 10 21 2C  0...........@.!,
+01A0: 71 16 DF E6 70 75 FF 1E   85 CF 70 38 A0 7F 06 A1  q...pu....p8....
+01B0: DC 25 68 9C 1A 7D 8F A7   F4 37 15 44 31 CA 02 9E  .%h......7.D1...
+01C0: 3C C8 66 68 C6 0D 4C A7   AF 1B 68 E6 D8 95 EC 2B  <.fh..L...h....+
+01D0: 57 48 92 2D 5D DE AA B4   1F EB B0 F3 75 41 7E 04  WH.-].......uA..
+01E0: 25 B2 EF 03 7E 9A C4 60   83 5B F7 33 D2 0A 88 6C  %......`.[.3...l
+01F0: E8 D9 52 66 E4 1D 32 A2   6F CA 29 17 80 C5 A0 AA  ..Rf..2.o.).....
+0200: 2E EE B3 45 5B 0D 7A 21   1C C7 D4 76 F7 8F 1A 52  ...E[.z!...v...R
+0210: F4 89 6E 92 FF 61 DC CF   61 6F 5A 27 57 49 8D 25  ..n..a..aoZ'WI.%
+0220: 86 8E CF D1 77 07 61 00   17 F5 8F CD 2E 03 C5 DF  ....w.a.........
+0230: A2 C8 83 F0 56 4F 21 2E   D5 CA 60 7A C9 06 0F 50  ....VO!...`z...P
+0240: 52 BD FD D3 CE 34 BF 7F   07 B8 54 42 25 21 89 55  R....4....TB%!.U
+0250: 44 CF DD B5 F0 97 98 9A   5F 7A BA A0 CE FF 0C 35  D......._z.....5
+0260: 66 48 16 BF 5B 48 77 67   12 E1 78 67 18 5F 50 4B  fH..[Hwg..xg._PK
+0270: 6F 19 43 05 F0 6A 74 CE   FA 4D 9A 15 F4 89 6B 58  o.C..jt..M....kX
+0280: A5 90 AF 53 F4 18 64 E3   10 43 18 8A FD E9 2D 22  ...S..d..C....-"
+0290: A3 94 49 15 51 C6 BB 66   1F 02 03 01 00 01 A3 0D  ..I.Q..f........
+02A0: 30 0B 30 09 06 03 55 1D   13 04 02 30 00 30 0D 06  0.0...U....0.0..
+02B0: 09 2A 86 48 86 F7 0D 01   01 05 05 00 03 82 01 01  .*.H............
+02C0: 00 C8 2B 52 D4 F2 76 D1   E6 7C D1 0B 5A 1F 47 47  ..+R..v.....Z.GG
+02D0: 21 2D 2C 03 2C EC 05 06   77 A8 5B DF 45 B2 CB 39  !-,.,...w.[.E..9
+02E0: F5 80 51 38 5E 53 38 65   D3 F8 96 A5 8E 42 91 DE  ..Q8^S8e.....B..
+02F0: D0 C9 13 23 12 C9 AF DA   BD 4D 87 2A A0 47 8D 17  ...#.....M.*.G..
+0300: 7D 4F C8 1E 2B 54 78 13   9B 7C 62 40 84 1C F7 D9  .O..+Tx...b@....
+0310: 22 41 B9 CF 64 E3 CC CB   7A D8 A3 EC 8F FB CD 88  "A..d...z.......
+0320: 0E D0 50 23 EC 0C 73 28   13 4A 7D BC B0 B4 07 A4  ..P#..s(.J......
+0330: 3C 87 4F 18 4F 83 8E 5A   84 29 81 99 0E CC 29 13  <.O.O..Z.)....).
+0340: E2 FC EA 42 D2 2D DF 8C   58 01 1D C8 55 AC E9 17  ...B.-..X...U...
+0350: 93 0B 29 E0 33 B7 C0 62   9A C0 D7 9F 17 8F 2C D2  ..).3..b......,.
+0360: F9 1F 9D D9 0B 79 32 2C   5A D1 C2 F4 DF 74 A6 4F  .....y2,Z....t.O
+0370: 14 7E 4A 8A 53 C4 7E 5D   21 18 78 67 53 40 9F E0  ..J.S..]!.xgS@..
+0380: 09 FF 62 09 79 87 03 C8   95 D8 AF 9E A5 A2 7B 7F  ..b.y...........
+0390: 51 90 C1 CB 51 7C CD CE   F7 91 63 C7 D7 52 AD 76  Q...Q.....c..R.v
+03A0: A0 49 84 22 40 2E DC 09   1E B0 96 E3 6C 58 DA E4  .I."@.......lX..
+03B0: CE F4 5E 3D 47 C2 29 4C   F7 50 7B 27 00 18 56 3A  ..^=G.)L.P.'..V:
+03C0: 6C 00 03 91 30 82 03 8D   30 82 02 75 A0 03 02 01  l...0...0..u....
+03D0: 02 02 09 00 D3 A3 73 6B   BE B2 A6 AB 30 0D 06 09  ......sk....0...
+03E0: 2A 86 48 86 F7 0D 01 01   05 05 00 30 7D 31 13 30  *.H........0.1.0
+03F0: 11 06 03 55 04 03 0C 0A   45 6C 79 74 72 6F 6E 20  ...U....Elytron 
+0400: 43 41 31 10 30 0E 06 03   55 04 08 0C 07 45 6C 79  CA1.0...U....Ely
+0410: 74 72 6F 6E 31 0B 30 09   06 03 55 04 06 13 02 55  tron1.0...U....U
+0420: 4B 31 22 30 20 06 09 2A   86 48 86 F7 0D 01 09 01  K1"0 ..*.H......
+0430: 16 13 65 6C 79 74 72 6F   6E 40 77 69 6C 64 66 6C  ..elytron@wildfl
+0440: 79 2E 6F 72 67 31 23 30   21 06 03 55 04 0A 0C 1A  y.org1#0!..U....
+0450: 52 6F 6F 74 20 43 65 72   74 69 66 69 63 61 74 65  Root Certificate
+0460: 20 41 75 74 68 6F 72 69   74 79 30 1E 17 0D 31 36   Authority0...16
+0470: 30 31 32 38 31 39 30 37   31 34 5A 17 0D 32 36 30  0128190714Z..260
+0480: 31 32 35 31 39 30 37 31   34 5A 30 7D 31 13 30 11  125190714Z0.1.0.
+0490: 06 03 55 04 03 0C 0A 45   6C 79 74 72 6F 6E 20 43  ..U....Elytron C
+04A0: 41 31 10 30 0E 06 03 55   04 08 0C 07 45 6C 79 74  A1.0...U....Elyt
+04B0: 72 6F 6E 31 0B 30 09 06   03 55 04 06 13 02 55 4B  ron1.0...U....UK
+04C0: 31 22 30 20 06 09 2A 86   48 86 F7 0D 01 09 01 16  1"0 ..*.H.......
+04D0: 13 65 6C 79 74 72 6F 6E   40 77 69 6C 64 66 6C 79  .elytron@wildfly
+04E0: 2E 6F 72 67 31 23 30 21   06 03 55 04 0A 0C 1A 52  .org1#0!..U....R
+04F0: 6F 6F 74 20 43 65 72 74   69 66 69 63 61 74 65 20  oot Certificate 
+0500: 41 75 74 68 6F 72 69 74   79 30 82 01 22 30 0D 06  Authority0.."0..
+0510: 09 2A 86 48 86 F7 0D 01   01 01 05 00 03 82 01 0F  .*.H............
+0520: 00 30 82 01 0A 02 82 01   01 00 D8 9D D2 3B 3F 35  .0...........;?5
+0530: 69 40 F0 75 2D CA CC 7F   01 61 F2 FE EF 1B 9E 27  i@.u-....a.....'
+0540: DA 72 81 8E 16 3A 33 6D   F1 25 7D 26 BA D3 50 80  .r...:3m.%.&..P.
+0550: 4C AA 75 78 6A 95 D0 1E   AC D7 BF 57 B8 88 FA 50  L.uxj......W...P
+0560: CC 09 A8 AE A8 33 4E 5E   15 99 B7 E7 74 ED EF E1  .....3N^....t...
+0570: B9 0B 6F EE 81 A5 3B 1D   6F 61 31 57 FD D5 28 B7  ..o...;.oa1W..(.
+0580: 38 AE 82 BA 72 BD 11 68   F5 F4 EA D4 07 1E DE 3B  8...r..h.......;
+0590: 7E FA 73 03 D4 BA 50 AC   E7 5A 6E 4C A0 23 7B 33  ..s...P..ZnL.#.3
+05A0: 02 29 B4 D2 44 93 DD 3F   06 62 07 F2 3E 2E A6 5D  .)..D..?.b..>..]
+05B0: A2 96 B6 79 08 10 CE C2   6A 20 67 FD DD 85 A3 A5  ...y....j g.....
+05C0: 7D D4 1E 7A 8E 6E EB DA   89 E5 1D 4C 8C 8C F3 D2  ...z.n.....L....
+05D0: D1 D5 57 A3 AC 04 9D CF   96 96 0F AD 80 E6 C8 BF  ..W.............
+05E0: 82 5E 2D FB 5A 51 CB 00   E2 16 44 3C 3D 68 4B 92  .^-.ZQ....D<=hK.
+05F0: 6E D0 22 86 A2 9D C8 45   D9 4B 6C 48 E6 60 1B 96  n."....E.KlH.`..
+0600: 8A AA D7 7D 73 AD CD FB   7B B0 C4 C3 F9 A9 27 F4  ....s.........'.
+0610: 52 86 09 89 0F 76 E6 68   E5 34 AA 14 39 68 F6 ED  R....v.h.4..9h..
+0620: F4 00 A8 CB D5 F4 45 F6   34 B9 02 03 01 00 01 A3  ......E.4.......
+0630: 10 30 0E 30 0C 06 03 55   1D 13 04 05 30 03 01 01  .0.0...U....0...
+0640: FF 30 0D 06 09 2A 86 48   86 F7 0D 01 01 05 05 00  .0...*.H........
+0650: 03 82 01 01 00 D2 66 59   95 8D 74 9E 78 86 AF 73  ......fY..t.x..s
+0660: 8B 61 9E 55 F1 0B E5 11   28 65 96 BC 20 DC A9 4A  .a.U....(e.. ..J
+0670: 3D 4E 4B 93 F5 34 CC 6D   6C B5 85 86 7A 8A E4 99  =NK..4.ml...z...
+0680: 82 2E C9 57 AF C6 B1 C2   21 8A 44 01 FD DF 99 B6  ...W....!.D.....
+0690: 51 6D 99 42 94 41 38 81   52 BA 40 22 12 A9 B9 1D  Qm.B.A8.R.@"....
+06A0: 3D 0A E0 74 F4 84 AB B8   72 2E DF C0 CA CD 11 B1  =..t....r.......
+06B0: 10 29 89 D7 4C 43 F8 6E   98 CC 45 66 02 1F 61 73  .)..LC.n..Ef..as
+06C0: E2 03 87 38 EA 98 E3 30   A2 DB 8A 47 1D D6 52 80  ...8...0...G..R.
+06D0: 99 C2 52 CA 78 B1 16 84   E1 AA 7F 20 00 E9 07 6D  ..R.x...... ...m
+06E0: 96 7D FB F4 B4 06 2F 87   2E DD 60 56 76 C0 B2 6A  ....../...`Vv..j
+06F0: CA AA D7 62 D7 87 7F 58   97 69 2F 1A 54 9A 00 00  ...b...X.i/.T...
+0700: DF DA 15 97 9A 1A B0 6F   08 98 85 E7 5C 85 3B B7  .......o....\.;.
+0710: 21 3D A4 D0 43 B5 F3 9C   C7 0A 45 FC 29 E1 EA 4A  !=..C.....E.)..J
+0720: 9C 1A 81 CB 02 BC 30 42   E4 A8 EB 0F 5F A4 E4 35  ......0B...._..5
+0730: 02 C6 E3 4F 3E 31 9D 61   D3 3D EC 16 09 F7 1F 29  ...O>1.a.=.....)
+0740: 2E AA 98 49 FD DD CD 03   7E CF C5 55 CD 5F D9 01  ...I.......U._..
+0750: 17 76 C2 C7 32 0C 00 01   49 03 00 17 41 04 A2 FD  .v..2...I...A...
+0760: 6A 02 36 57 B7 8E C7 DB   86 A7 64 29 73 B9 8E E4  j.6W......d)s...
+0770: 61 73 C6 F5 EF 9E 10 AE   9B 57 22 08 46 0B 64 DF  as.......W".F.d.
+0780: 9D 69 E1 D3 1D 87 CD 3F   33 D7 56 48 03 98 3A B8  .i.....?3.VH..:.
+0790: 0F 5A CF 96 FF 6C E0 18   95 C1 E2 D9 8C 29 06 01  .Z...l.......)..
+07A0: 01 00 3C 8A 6E EF 03 59   42 68 26 05 AF 5D 39 BD  ..<.n..YBh&..]9.
+07B0: CA C4 94 91 98 04 99 9E   96 9B 80 80 D7 6D 05 96  .............m..
+07C0: FC 42 55 9D 87 AB 38 21   74 F0 FA 55 8E 2A ED F1  .BU...8!t..U.*..
+07D0: 4D E1 4D EE BE 41 72 F0   FB E8 D9 1B 97 82 C2 24  M.M..Ar........$
+07E0: 5A 40 25 D6 B8 87 A6 F5   9E AF D6 5F E1 C1 A8 D9  Z@%........_....
+07F0: 2A 13 1A 38 75 EE 90 AA   8A DA 48 AE 67 13 06 6B  *..8u.....H.g..k
+0800: DD 44 56 7E 31 4D 88 F2   F2 C1 4D 9C 7D 50 99 BA  .DV.1M....M..P..
+0810: AE 94 58 CA BF C9 FC 81   52 83 F9 84 A3 CB 0D F4  ..X.....R.......
+0820: 4E AA 72 6B C6 A1 99 02   96 DF B2 3C E0 83 DE 56  N.rk.......<...V
+0830: C0 D5 84 7A A6 86 EF CB   49 88 DF E8 CA 16 7A 01  ...z....I.....z.
+0840: 67 8C B8 D9 C6 BA 24 78   17 FD 91 AD 7B 3D B6 39  g.....$x.....=.9
+0850: 26 27 37 14 9E FD 46 09   0F 35 32 BC 64 A5 9D F0  &'7...F..52.d...
+0860: 8D BD A3 66 77 DA 85 1E   1F AF 1B 36 A5 6A EC 82  ...fw......6.j..
+0870: A4 FF CC 64 AF 03 DA 49   C9 A0 3C 44 8C D8 AA 69  ...d...I..<D...i
+0880: EC EB 68 ED 47 20 D5 41   EE D1 9F EF C4 F9 52 86  ..h.G .A......R.
+0890: 7D 87 1E CF 38 F3 52 F3   8C E1 69 96 DD BE 92 1F  ....8.R...i.....
+08A0: 1B 08 0D 00 00 9D 03 01   02 40 00 14 06 03 06 01  .........@......
+08B0: 05 03 05 01 04 03 04 01   03 03 03 01 02 03 02 01  ................
+08C0: 00 81 00 7F 30 7D 31 13   30 11 06 03 55 04 03 0C  ....0.1.0...U...
+08D0: 0A 45 6C 79 74 72 6F 6E   20 43 41 31 10 30 0E 06  .Elytron CA1.0..
+08E0: 03 55 04 08 0C 07 45 6C   79 74 72 6F 6E 31 0B 30  .U....Elytron1.0
+08F0: 09 06 03 55 04 06 13 02   55 4B 31 22 30 20 06 09  ...U....UK1"0 ..
+0900: 2A 86 48 86 F7 0D 01 09   01 16 13 65 6C 79 74 72  *.H........elytr
+0910: 6F 6E 40 77 69 6C 64 66   6C 79 2E 6F 72 67 31 23  on@wildfly.org1#
+0920: 30 21 06 03 55 04 0A 0C   1A 52 6F 6F 74 20 43 65  0!..U....Root Ce
+0930: 72 74 69 66 69 63 61 74   65 20 41 75 74 68 6F 72  rtificate Author
+0940: 69 74 79 0E 00 00 00                               ity....
+[Raw read]: length = 5
+0000: 16 03 03 07 43                                     ....C
+[Raw read]: length = 1859
+0000: 0B 00 06 F9 00 06 F6 00   03 5F 30 82 03 5B 30 82  ........._0..[0.
+0010: 02 43 A0 03 02 01 02 02   01 03 30 0D 06 09 2A 86  .C........0...*.
+0020: 48 86 F7 0D 01 01 05 05   00 30 7D 31 13 30 11 06  H........0.1.0..
+0030: 03 55 04 03 0C 0A 45 6C   79 74 72 6F 6E 20 43 41  .U....Elytron CA
+0040: 31 10 30 0E 06 03 55 04   08 0C 07 45 6C 79 74 72  1.0...U....Elytr
+0050: 6F 6E 31 0B 30 09 06 03   55 04 06 13 02 55 4B 31  on1.0...U....UK1
+0060: 22 30 20 06 09 2A 86 48   86 F7 0D 01 09 01 16 13  "0 ..*.H........
+0070: 65 6C 79 74 72 6F 6E 40   77 69 6C 64 66 6C 79 2E  elytron@wildfly.
+0080: 6F 72 67 31 23 30 21 06   03 55 04 0A 0C 1A 52 6F  org1#0!..U....Ro
+0090: 6F 74 20 43 65 72 74 69   66 69 63 61 74 65 20 41  ot Certificate A
+00A0: 75 74 68 6F 72 69 74 79   30 1E 17 0D 31 36 30 31  uthority0...1601
+00B0: 32 39 31 30 35 35 35 38   5A 17 0D 32 36 30 31 32  29105558Z..26012
+00C0: 36 31 30 35 35 35 38 5A   30 56 31 11 30 0F 06 03  6105558Z0V1.0...
+00D0: 55 04 03 13 08 4C 61 64   79 62 69 72 64 31 10 30  U....Ladybird1.0
+00E0: 0E 06 03 55 04 08 13 07   45 6C 79 74 72 6F 6E 31  ...U....Elytron1
+00F0: 0B 30 09 06 03 55 04 06   13 02 55 4B 31 10 30 0E  .0...U....UK1.0.
+0100: 06 03 55 04 0A 13 07 45   6C 79 74 72 6F 6E 31 10  ..U....Elytron1.
+0110: 30 0E 06 03 55 04 0B 13   07 45 6C 79 74 72 6F 6E  0...U....Elytron
+0120: 30 82 01 22 30 0D 06 09   2A 86 48 86 F7 0D 01 01  0.."0...*.H.....
+0130: 01 05 00 03 82 01 0F 00   30 82 01 0A 02 82 01 01  ........0.......
+0140: 00 B4 40 66 5E A7 76 FB   17 37 A2 34 56 B2 5B 13  ..@f^.v..7.4V.[.
+0150: CB 23 1F 07 FF 6C A0 FA   2F DF 2E 54 84 49 93 B8  .#...l../..T.I..
+0160: AA 53 3D A6 4A A7 30 B5   60 5C 5D 16 BC F9 3D 8B  .S=.J.0.`\]...=.
+0170: 5A 6D AB 52 ED 38 5B 30   5F CD B4 81 77 2D 48 5A  Zm.R.8[0_...w-HZ
+0180: 2B D9 C2 48 8F 3D B8 81   37 F6 DB 61 6B C7 85 12  +..H.=..7..ak...
+0190: 18 B0 B9 93 C6 C0 07 F8   C5 33 FE 52 36 CD 5E E7  .........3.R6.^.
+01A0: 52 28 9C 14 8A E6 25 4F   D1 8B 9B 30 3B 67 B5 C4  R(....%O...0;g..
+01B0: B4 8E 27 34 5F F4 AF BF   C7 D9 78 77 1C BD 3D 41  ..'4_.....xw..=A
+01C0: 00 66 9F 78 E2 FD 07 F6   54 EF 6B E3 C1 4D 8A 1C  .f.x....T.k..M..
+01D0: 55 67 E6 5D 0D F6 90 DA   1E A5 56 13 4D DB DB F2  Ug.]......V.M...
+01E0: A7 A4 CC 1A F9 1B 32 CC   2E 0C 38 3E 95 C5 44 AE  ......2...8>..D.
+01F0: F1 B9 3D 39 75 67 8F A4   F1 7D 51 D9 38 EB FF 0A  ..=9ug....Q.8...
+0200: D3 A8 A9 36 6D 58 DD 8D   CA C3 95 22 75 22 5B 13  ...6mX....."u"[.
+0210: 4B 7F EC 1B CF F9 B4 4A   8E 46 9E ED 05 43 AB 3A  K......J.F...C.:
+0220: D8 F5 F8 0E 6A 8D EF 63   3A 34 83 07 DB 99 7A 7D  ....j..c:4....z.
+0230: F5 32 0C AA 65 F2 A5 5E   F9 82 F7 56 BF D2 50 51  .2..e..^...V..PQ
+0240: 2F 02 03 01 00 01 A3 0D   30 0B 30 09 06 03 55 1D  /.......0.0...U.
+0250: 13 04 02 30 00 30 0D 06   09 2A 86 48 86 F7 0D 01  ...0.0...*.H....
+0260: 01 05 05 00 03 82 01 01   00 6B BB 53 A4 A1 13 C3  .........k.S....
+0270: A1 E3 D7 57 6F 51 DE E3   2E 6D 73 35 C1 61 7C D4  ...WoQ...ms5.a..
+0280: F5 5B D8 C6 B0 02 89 DC   BC 83 20 49 79 18 B2 12  .[........ Iy...
+0290: CF 6D D0 38 E0 FA D5 A9   38 A8 F5 95 3C 0A E3 B2  .m.8....8...<...
+02A0: 0A 05 C4 7E 15 17 64 4C   06 BD C4 73 08 BE EC 63  ......dL...s...c
+02B0: 14 85 67 9D B2 7F 5E 65   5D 5A 72 2C B4 75 A2 2D  ..g...^e]Zr,.u.-
+02C0: D9 1E 61 7B 4D D2 69 0B   AE A0 65 2F 05 3A 16 AC  ..a.M.i...e/.:..
+02D0: 0E 24 84 4A AA CC E3 59   02 9F 45 BD 15 08 F6 EE  .$.J...Y..E.....
+02E0: E8 BA D2 A1 AE 26 3D 14   A9 E3 6A 88 95 9A 79 88  .....&=...j...y.
+02F0: 84 02 F8 61 F8 B1 FA 6D   FC E7 D5 26 60 2F 59 F5  ...a...m...&`/Y.
+0300: C0 40 D5 F7 C8 25 EE 1A   29 5A 1B FF BA BD 77 FF  .@...%..)Z....w.
+0310: 4E 40 66 D6 7A 05 85 88   AE 08 89 06 73 AD 9A 41  N@f.z.......s..A
+0320: F2 BA D5 7A 57 EE C2 BD   4A 89 C8 D7 66 61 51 E8  ...zW...J...faQ.
+0330: BD 11 D8 20 DA F9 AD D1   DE 22 54 DF 64 FD 24 B8  ... ....."T.d.$.
+0340: 45 99 59 5B 26 84 A6 BE   E9 39 9E 98 2C 73 CD E6  E.Y[&....9..,s..
+0350: 73 F8 21 E3 C6 6B 43 F0   FC E3 75 EF F8 9E 35 21  s.!..kC...u...5!
+0360: EF C4 31 FD 1F 14 40 75   04 00 03 91 30 82 03 8D  ..1...@u....0...
+0370: 30 82 02 75 A0 03 02 01   02 02 09 00 D3 A3 73 6B  0..u..........sk
+0380: BE B2 A6 AB 30 0D 06 09   2A 86 48 86 F7 0D 01 01  ....0...*.H.....
+0390: 05 05 00 30 7D 31 13 30   11 06 03 55 04 03 0C 0A  ...0.1.0...U....
+03A0: 45 6C 79 74 72 6F 6E 20   43 41 31 10 30 0E 06 03  Elytron CA1.0...
+03B0: 55 04 08 0C 07 45 6C 79   74 72 6F 6E 31 0B 30 09  U....Elytron1.0.
+03C0: 06 03 55 04 06 13 02 55   4B 31 22 30 20 06 09 2A  ..U....UK1"0 ..*
+03D0: 86 48 86 F7 0D 01 09 01   16 13 65 6C 79 74 72 6F  .H........elytro
+03E0: 6E 40 77 69 6C 64 66 6C   79 2E 6F 72 67 31 23 30  n@wildfly.org1#0
+03F0: 21 06 03 55 04 0A 0C 1A   52 6F 6F 74 20 43 65 72  !..U....Root Cer
+0400: 74 69 66 69 63 61 74 65   20 41 75 74 68 6F 72 69  tificate Authori
+0410: 74 79 30 1E 17 0D 31 36   30 31 32 38 31 39 30 37  ty0...1601281907
+0420: 31 34 5A 17 0D 32 36 30   31 32 35 31 39 30 37 31  14Z..26012519071
+0430: 34 5A 30 7D 31 13 30 11   06 03 55 04 03 0C 0A 45  4Z0.1.0...U....E
+0440: 6C 79 74 72 6F 6E 20 43   41 31 10 30 0E 06 03 55  lytron CA1.0...U
+0450: 04 08 0C 07 45 6C 79 74   72 6F 6E 31 0B 30 09 06  ....Elytron1.0..
+0460: 03 55 04 06 13 02 55 4B   31 22 30 20 06 09 2A 86  .U....UK1"0 ..*.
+0470: 48 86 F7 0D 01 09 01 16   13 65 6C 79 74 72 6F 6E  H........elytron
+0480: 40 77 69 6C 64 66 6C 79   2E 6F 72 67 31 23 30 21  @wildfly.org1#0!
+0490: 06 03 55 04 0A 0C 1A 52   6F 6F 74 20 43 65 72 74  ..U....Root Cert
+04A0: 69 66 69 63 61 74 65 20   41 75 74 68 6F 72 69 74  ificate Authorit
+04B0: 79 30 82 01 22 30 0D 06   09 2A 86 48 86 F7 0D 01  y0.."0...*.H....
+04C0: 01 01 05 00 03 82 01 0F   00 30 82 01 0A 02 82 01  .........0......
+04D0: 01 00 D8 9D D2 3B 3F 35   69 40 F0 75 2D CA CC 7F  .....;?5i@.u-...
+04E0: 01 61 F2 FE EF 1B 9E 27   DA 72 81 8E 16 3A 33 6D  .a.....'.r...:3m
+04F0: F1 25 7D 26 BA D3 50 80   4C AA 75 78 6A 95 D0 1E  .%.&..P.L.uxj...
+0500: AC D7 BF 57 B8 88 FA 50   CC 09 A8 AE A8 33 4E 5E  ...W...P.....3N^
+0510: 15 99 B7 E7 74 ED EF E1   B9 0B 6F EE 81 A5 3B 1D  ....t.....o...;.
+0520: 6F 61 31 57 FD D5 28 B7   38 AE 82 BA 72 BD 11 68  oa1W..(.8...r..h
+0530: F5 F4 EA D4 07 1E DE 3B   7E FA 73 03 D4 BA 50 AC  .......;..s...P.
+0540: E7 5A 6E 4C A0 23 7B 33   02 29 B4 D2 44 93 DD 3F  .ZnL.#.3.)..D..?
+0550: 06 62 07 F2 3E 2E A6 5D   A2 96 B6 79 08 10 CE C2  .b..>..]...y....
+0560: 6A 20 67 FD DD 85 A3 A5   7D D4 1E 7A 8E 6E EB DA  j g........z.n..
+0570: 89 E5 1D 4C 8C 8C F3 D2   D1 D5 57 A3 AC 04 9D CF  ...L......W.....
+0580: 96 96 0F AD 80 E6 C8 BF   82 5E 2D FB 5A 51 CB 00  .........^-.ZQ..
+0590: E2 16 44 3C 3D 68 4B 92   6E D0 22 86 A2 9D C8 45  ..D<=hK.n."....E
+05A0: D9 4B 6C 48 E6 60 1B 96   8A AA D7 7D 73 AD CD FB  .KlH.`......s...
+05B0: 7B B0 C4 C3 F9 A9 27 F4   52 86 09 89 0F 76 E6 68  ......'.R....v.h
+05C0: E5 34 AA 14 39 68 F6 ED   F4 00 A8 CB D5 F4 45 F6  .4..9h........E.
+05D0: 34 B9 02 03 01 00 01 A3   10 30 0E 30 0C 06 03 55  4........0.0...U
+05E0: 1D 13 04 05 30 03 01 01   FF 30 0D 06 09 2A 86 48  ....0....0...*.H
+05F0: 86 F7 0D 01 01 05 05 00   03 82 01 01 00 D2 66 59  ..............fY
+0600: 95 8D 74 9E 78 86 AF 73   8B 61 9E 55 F1 0B E5 11  ..t.x..s.a.U....
+0610: 28 65 96 BC 20 DC A9 4A   3D 4E 4B 93 F5 34 CC 6D  (e.. ..J=NK..4.m
+0620: 6C B5 85 86 7A 8A E4 99   82 2E C9 57 AF C6 B1 C2  l...z......W....
+0630: 21 8A 44 01 FD DF 99 B6   51 6D 99 42 94 41 38 81  !.D.....Qm.B.A8.
+0640: 52 BA 40 22 12 A9 B9 1D   3D 0A E0 74 F4 84 AB B8  R.@"....=..t....
+0650: 72 2E DF C0 CA CD 11 B1   10 29 89 D7 4C 43 F8 6E  r........)..LC.n
+0660: 98 CC 45 66 02 1F 61 73   E2 03 87 38 EA 98 E3 30  ..Ef..as...8...0
+0670: A2 DB 8A 47 1D D6 52 80   99 C2 52 CA 78 B1 16 84  ...G..R...R.x...
+0680: E1 AA 7F 20 00 E9 07 6D   96 7D FB F4 B4 06 2F 87  ... ...m....../.
+0690: 2E DD 60 56 76 C0 B2 6A   CA AA D7 62 D7 87 7F 58  ..`Vv..j...b...X
+06A0: 97 69 2F 1A 54 9A 00 00   DF DA 15 97 9A 1A B0 6F  .i/.T..........o
+06B0: 08 98 85 E7 5C 85 3B B7   21 3D A4 D0 43 B5 F3 9C  ....\.;.!=..C...
+06C0: C7 0A 45 FC 29 E1 EA 4A   9C 1A 81 CB 02 BC 30 42  ..E.)..J......0B
+06D0: E4 A8 EB 0F 5F A4 E4 35   02 C6 E3 4F 3E 31 9D 61  ...._..5...O>1.a
+06E0: D3 3D EC 16 09 F7 1F 29   2E AA 98 49 FD DD CD 03  .=.....)...I....
+06F0: 7E CF C5 55 CD 5F D9 01   17 76 C2 C7 32 10 00 00  ...U._...v..2...
+0700: 42 41 04 48 6A D0 A3 3B   DD 40 EB D9 00 2E B3 1F  BA.Hj..;.@......
+0710: 40 9A C7 01 17 FA 6E BC   59 08 39 07 2B A2 1E 20  @.....n.Y.9.+.. 
+0720: E4 3A B9 A4 1C A4 97 BB   31 9E C0 98 D4 FD EB CE  .:......1.......
+0730: 63 71 E0 F7 A8 B0 BD D3   B5 1F 2E 9A 4E F0 9F 06  cq..........N...
+0740: 61 F0 DF                                           a..
+main, READ: TLSv1.2 Handshake, length = 1859
+*** Certificate chain
+chain [0] = [
+[
+  Version: V3
+  Subject: OU=Elytron, O=Elytron, C=UK, ST=Elytron, CN=Ladybird
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 22754651659200854706207077470176638841275402417209335531419988910833464869564947832023498389912434417145218704268216001321068267164165002666919405752013158735846286456692292646686208109171156107291391330692855419884599884726213616734265576450823304941805849117119852643475653649292804901532025719742981101376004906466589616303493657212765423511584824760970430798790732998190027654253722213855425249953356447175846014366615247802715827832735396770184370765748467056583674271927121607985704712015877241604306521649105162655832277099259673922653815205452073422611980610037008245071954962830838802292156301063405855330607
+  public exponent: 65537
+  Validity: [From: Fri Jan 29 10:55:58 GMT 2016,
+               To: Mon Jan 26 10:55:58 GMT 2026]
+  Issuer: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  SerialNumber: [    03]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 6B BB 53 A4 A1 13 C3 A1   E3 D7 57 6F 51 DE E3 2E  k.S.......WoQ...
+0010: 6D 73 35 C1 61 7C D4 F5   5B D8 C6 B0 02 89 DC BC  ms5.a...[.......
+0020: 83 20 49 79 18 B2 12 CF   6D D0 38 E0 FA D5 A9 38  . Iy....m.8....8
+0030: A8 F5 95 3C 0A E3 B2 0A   05 C4 7E 15 17 64 4C 06  ...<.........dL.
+0040: BD C4 73 08 BE EC 63 14   85 67 9D B2 7F 5E 65 5D  ..s...c..g...^e]
+0050: 5A 72 2C B4 75 A2 2D D9   1E 61 7B 4D D2 69 0B AE  Zr,.u.-..a.M.i..
+0060: A0 65 2F 05 3A 16 AC 0E   24 84 4A AA CC E3 59 02  .e/.:...$.J...Y.
+0070: 9F 45 BD 15 08 F6 EE E8   BA D2 A1 AE 26 3D 14 A9  .E..........&=..
+0080: E3 6A 88 95 9A 79 88 84   02 F8 61 F8 B1 FA 6D FC  .j...y....a...m.
+0090: E7 D5 26 60 2F 59 F5 C0   40 D5 F7 C8 25 EE 1A 29  ..&`/Y..@...%..)
+00A0: 5A 1B FF BA BD 77 FF 4E   40 66 D6 7A 05 85 88 AE  Z....w.N@f.z....
+00B0: 08 89 06 73 AD 9A 41 F2   BA D5 7A 57 EE C2 BD 4A  ...s..A...zW...J
+00C0: 89 C8 D7 66 61 51 E8 BD   11 D8 20 DA F9 AD D1 DE  ...faQ.... .....
+00D0: 22 54 DF 64 FD 24 B8 45   99 59 5B 26 84 A6 BE E9  "T.d.$.E.Y[&....
+00E0: 39 9E 98 2C 73 CD E6 73   F8 21 E3 C6 6B 43 F0 FC  9..,s..s.!..kC..
+00F0: E3 75 EF F8 9E 35 21 EF   C4 31 FD 1F 14 40 75 04  .u...5!..1...@u.
+
+]
+chain [1] = [
+[
+  Version: V3
+  Subject: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 27345298415103023454212379703677759667713026436503082254657843008520775133140687452552711352417130601074417055312668832830276032717021468528652836990508970086534681790228901131076911592977514407143757376923873127085668132679201517226358824951560733532747294121741168321985565465305331974478745861485578386702514908365914779357835965554362129481356958670951183332535035488599181216126391903561305444426077908459070610984594057693395630994637040784202410047485773106218362621300484760701998318438379207824413761446778265406524167830527225257227208192000889811975297196172856390889114143303120748632805651734634236884153
+  public exponent: 65537
+  Validity: [From: Thu Jan 28 19:07:14 GMT 2016,
+               To: Sun Jan 25 19:07:14 GMT 2026]
+  Issuer: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  SerialNumber: [    d3a3736b beb2a6ab]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: D2 66 59 95 8D 74 9E 78   86 AF 73 8B 61 9E 55 F1  .fY..t.x..s.a.U.
+0010: 0B E5 11 28 65 96 BC 20   DC A9 4A 3D 4E 4B 93 F5  ...(e.. ..J=NK..
+0020: 34 CC 6D 6C B5 85 86 7A   8A E4 99 82 2E C9 57 AF  4.ml...z......W.
+0030: C6 B1 C2 21 8A 44 01 FD   DF 99 B6 51 6D 99 42 94  ...!.D.....Qm.B.
+0040: 41 38 81 52 BA 40 22 12   A9 B9 1D 3D 0A E0 74 F4  A8.R.@"....=..t.
+0050: 84 AB B8 72 2E DF C0 CA   CD 11 B1 10 29 89 D7 4C  ...r........)..L
+0060: 43 F8 6E 98 CC 45 66 02   1F 61 73 E2 03 87 38 EA  C.n..Ef..as...8.
+0070: 98 E3 30 A2 DB 8A 47 1D   D6 52 80 99 C2 52 CA 78  ..0...G..R...R.x
+0080: B1 16 84 E1 AA 7F 20 00   E9 07 6D 96 7D FB F4 B4  ...... ...m.....
+0090: 06 2F 87 2E DD 60 56 76   C0 B2 6A CA AA D7 62 D7  ./...`Vv..j...b.
+00A0: 87 7F 58 97 69 2F 1A 54   9A 00 00 DF DA 15 97 9A  ..X.i/.T........
+00B0: 1A B0 6F 08 98 85 E7 5C   85 3B B7 21 3D A4 D0 43  ..o....\.;.!=..C
+00C0: B5 F3 9C C7 0A 45 FC 29   E1 EA 4A 9C 1A 81 CB 02  .....E.)..J.....
+00D0: BC 30 42 E4 A8 EB 0F 5F   A4 E4 35 02 C6 E3 4F 3E  .0B...._..5...O>
+00E0: 31 9D 61 D3 3D EC 16 09   F7 1F 29 2E AA 98 49 FD  1.a.=.....)...I.
+00F0: DD CD 03 7E CF C5 55 CD   5F D9 01 17 76 C2 C7 32  ......U._...v..2
+
+]
+***
+Found trusted certificate:
+[
+[
+  Version: V3
+  Subject: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 27345298415103023454212379703677759667713026436503082254657843008520775133140687452552711352417130601074417055312668832830276032717021468528652836990508970086534681790228901131076911592977514407143757376923873127085668132679201517226358824951560733532747294121741168321985565465305331974478745861485578386702514908365914779357835965554362129481356958670951183332535035488599181216126391903561305444426077908459070610984594057693395630994637040784202410047485773106218362621300484760701998318438379207824413761446778265406524167830527225257227208192000889811975297196172856390889114143303120748632805651734634236884153
+  public exponent: 65537
+  Validity: [From: Thu Jan 28 19:07:14 GMT 2016,
+               To: Sun Jan 25 19:07:14 GMT 2026]
+  Issuer: O=Root Certificate Authority, EMAILADDRESS=elytron@wildfly.org, C=UK, ST=Elytron, CN=Elytron CA
+  SerialNumber: [    d3a3736b beb2a6ab]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: D2 66 59 95 8D 74 9E 78   86 AF 73 8B 61 9E 55 F1  .fY..t.x..s.a.U.
+0010: 0B E5 11 28 65 96 BC 20   DC A9 4A 3D 4E 4B 93 F5  ...(e.. ..J=NK..
+0020: 34 CC 6D 6C B5 85 86 7A   8A E4 99 82 2E C9 57 AF  4.ml...z......W.
+0030: C6 B1 C2 21 8A 44 01 FD   DF 99 B6 51 6D 99 42 94  ...!.D.....Qm.B.
+0040: 41 38 81 52 BA 40 22 12   A9 B9 1D 3D 0A E0 74 F4  A8.R.@"....=..t.
+0050: 84 AB B8 72 2E DF C0 CA   CD 11 B1 10 29 89 D7 4C  ...r........)..L
+0060: 43 F8 6E 98 CC 45 66 02   1F 61 73 E2 03 87 38 EA  C.n..Ef..as...8.
+0070: 98 E3 30 A2 DB 8A 47 1D   D6 52 80 99 C2 52 CA 78  ..0...G..R...R.x
+0080: B1 16 84 E1 AA 7F 20 00   E9 07 6D 96 7D FB F4 B4  ...... ...m.....
+0090: 06 2F 87 2E DD 60 56 76   C0 B2 6A CA AA D7 62 D7  ./...`Vv..j...b.
+00A0: 87 7F 58 97 69 2F 1A 54   9A 00 00 DF DA 15 97 9A  ..X.i/.T........
+00B0: 1A B0 6F 08 98 85 E7 5C   85 3B B7 21 3D A4 D0 43  ..o....\.;.!=..C
+00C0: B5 F3 9C C7 0A 45 FC 29   E1 EA 4A 9C 1A 81 CB 02  .....E.)..J.....
+00D0: BC 30 42 E4 A8 EB 0F 5F   A4 E4 35 02 C6 E3 4F 3E  .0B...._..5...O>
+00E0: 31 9D 61 D3 3D EC 16 09   F7 1F 29 2E AA 98 49 FD  1.a.=.....)...I.
+00F0: DD CD 03 7E CF C5 55 CD   5F D9 01 17 76 C2 C7 32  ......U._...v..2
+
+]
+[read] MD5 and SHA1 hashes:  len = 1789
+0000: 0B 00 06 F9 00 06 F6 00   03 5F 30 82 03 5B 30 82  ........._0..[0.
+0010: 02 43 A0 03 02 01 02 02   01 03 30 0D 06 09 2A 86  .C........0...*.
+0020: 48 86 F7 0D 01 01 05 05   00 30 7D 31 13 30 11 06  H........0.1.0..
+0030: 03 55 04 03 0C 0A 45 6C   79 74 72 6F 6E 20 43 41  .U....Elytron CA
+0040: 31 10 30 0E 06 03 55 04   08 0C 07 45 6C 79 74 72  1.0...U....Elytr
+0050: 6F 6E 31 0B 30 09 06 03   55 04 06 13 02 55 4B 31  on1.0...U....UK1
+0060: 22 30 20 06 09 2A 86 48   86 F7 0D 01 09 01 16 13  "0 ..*.H........
+0070: 65 6C 79 74 72 6F 6E 40   77 69 6C 64 66 6C 79 2E  elytron@wildfly.
+0080: 6F 72 67 31 23 30 21 06   03 55 04 0A 0C 1A 52 6F  org1#0!..U....Ro
+0090: 6F 74 20 43 65 72 74 69   66 69 63 61 74 65 20 41  ot Certificate A
+00A0: 75 74 68 6F 72 69 74 79   30 1E 17 0D 31 36 30 31  uthority0...1601
+00B0: 32 39 31 30 35 35 35 38   5A 17 0D 32 36 30 31 32  29105558Z..26012
+00C0: 36 31 30 35 35 35 38 5A   30 56 31 11 30 0F 06 03  6105558Z0V1.0...
+00D0: 55 04 03 13 08 4C 61 64   79 62 69 72 64 31 10 30  U....Ladybird1.0
+00E0: 0E 06 03 55 04 08 13 07   45 6C 79 74 72 6F 6E 31  ...U....Elytron1
+00F0: 0B 30 09 06 03 55 04 06   13 02 55 4B 31 10 30 0E  .0...U....UK1.0.
+0100: 06 03 55 04 0A 13 07 45   6C 79 74 72 6F 6E 31 10  ..U....Elytron1.
+0110: 30 0E 06 03 55 04 0B 13   07 45 6C 79 74 72 6F 6E  0...U....Elytron
+0120: 30 82 01 22 30 0D 06 09   2A 86 48 86 F7 0D 01 01  0.."0...*.H.....
+0130: 01 05 00 03 82 01 0F 00   30 82 01 0A 02 82 01 01  ........0.......
+0140: 00 B4 40 66 5E A7 76 FB   17 37 A2 34 56 B2 5B 13  ..@f^.v..7.4V.[.
+0150: CB 23 1F 07 FF 6C A0 FA   2F DF 2E 54 84 49 93 B8  .#...l../..T.I..
+0160: AA 53 3D A6 4A A7 30 B5   60 5C 5D 16 BC F9 3D 8B  .S=.J.0.`\]...=.
+0170: 5A 6D AB 52 ED 38 5B 30   5F CD B4 81 77 2D 48 5A  Zm.R.8[0_...w-HZ
+0180: 2B D9 C2 48 8F 3D B8 81   37 F6 DB 61 6B C7 85 12  +..H.=..7..ak...
+0190: 18 B0 B9 93 C6 C0 07 F8   C5 33 FE 52 36 CD 5E E7  .........3.R6.^.
+01A0: 52 28 9C 14 8A E6 25 4F   D1 8B 9B 30 3B 67 B5 C4  R(....%O...0;g..
+01B0: B4 8E 27 34 5F F4 AF BF   C7 D9 78 77 1C BD 3D 41  ..'4_.....xw..=A
+01C0: 00 66 9F 78 E2 FD 07 F6   54 EF 6B E3 C1 4D 8A 1C  .f.x....T.k..M..
+01D0: 55 67 E6 5D 0D F6 90 DA   1E A5 56 13 4D DB DB F2  Ug.]......V.M...
+01E0: A7 A4 CC 1A F9 1B 32 CC   2E 0C 38 3E 95 C5 44 AE  ......2...8>..D.
+01F0: F1 B9 3D 39 75 67 8F A4   F1 7D 51 D9 38 EB FF 0A  ..=9ug....Q.8...
+0200: D3 A8 A9 36 6D 58 DD 8D   CA C3 95 22 75 22 5B 13  ...6mX....."u"[.
+0210: 4B 7F EC 1B CF F9 B4 4A   8E 46 9E ED 05 43 AB 3A  K......J.F...C.:
+0220: D8 F5 F8 0E 6A 8D EF 63   3A 34 83 07 DB 99 7A 7D  ....j..c:4....z.
+0230: F5 32 0C AA 65 F2 A5 5E   F9 82 F7 56 BF D2 50 51  .2..e..^...V..PQ
+0240: 2F 02 03 01 00 01 A3 0D   30 0B 30 09 06 03 55 1D  /.......0.0...U.
+0250: 13 04 02 30 00 30 0D 06   09 2A 86 48 86 F7 0D 01  ...0.0...*.H....
+0260: 01 05 05 00 03 82 01 01   00 6B BB 53 A4 A1 13 C3  .........k.S....
+0270: A1 E3 D7 57 6F 51 DE E3   2E 6D 73 35 C1 61 7C D4  ...WoQ...ms5.a..
+0280: F5 5B D8 C6 B0 02 89 DC   BC 83 20 49 79 18 B2 12  .[........ Iy...
+0290: CF 6D D0 38 E0 FA D5 A9   38 A8 F5 95 3C 0A E3 B2  .m.8....8...<...
+02A0: 0A 05 C4 7E 15 17 64 4C   06 BD C4 73 08 BE EC 63  ......dL...s...c
+02B0: 14 85 67 9D B2 7F 5E 65   5D 5A 72 2C B4 75 A2 2D  ..g...^e]Zr,.u.-
+02C0: D9 1E 61 7B 4D D2 69 0B   AE A0 65 2F 05 3A 16 AC  ..a.M.i...e/.:..
+02D0: 0E 24 84 4A AA CC E3 59   02 9F 45 BD 15 08 F6 EE  .$.J...Y..E.....
+02E0: E8 BA D2 A1 AE 26 3D 14   A9 E3 6A 88 95 9A 79 88  .....&=...j...y.
+02F0: 84 02 F8 61 F8 B1 FA 6D   FC E7 D5 26 60 2F 59 F5  ...a...m...&`/Y.
+0300: C0 40 D5 F7 C8 25 EE 1A   29 5A 1B FF BA BD 77 FF  .@...%..)Z....w.
+0310: 4E 40 66 D6 7A 05 85 88   AE 08 89 06 73 AD 9A 41  N@f.z.......s..A
+0320: F2 BA D5 7A 57 EE C2 BD   4A 89 C8 D7 66 61 51 E8  ...zW...J...faQ.
+0330: BD 11 D8 20 DA F9 AD D1   DE 22 54 DF 64 FD 24 B8  ... ....."T.d.$.
+0340: 45 99 59 5B 26 84 A6 BE   E9 39 9E 98 2C 73 CD E6  E.Y[&....9..,s..
+0350: 73 F8 21 E3 C6 6B 43 F0   FC E3 75 EF F8 9E 35 21  s.!..kC...u...5!
+0360: EF C4 31 FD 1F 14 40 75   04 00 03 91 30 82 03 8D  ..1...@u....0...
+0370: 30 82 02 75 A0 03 02 01   02 02 09 00 D3 A3 73 6B  0..u..........sk
+0380: BE B2 A6 AB 30 0D 06 09   2A 86 48 86 F7 0D 01 01  ....0...*.H.....
+0390: 05 05 00 30 7D 31 13 30   11 06 03 55 04 03 0C 0A  ...0.1.0...U....
+03A0: 45 6C 79 74 72 6F 6E 20   43 41 31 10 30 0E 06 03  Elytron CA1.0...
+03B0: 55 04 08 0C 07 45 6C 79   74 72 6F 6E 31 0B 30 09  U....Elytron1.0.
+03C0: 06 03 55 04 06 13 02 55   4B 31 22 30 20 06 09 2A  ..U....UK1"0 ..*
+03D0: 86 48 86 F7 0D 01 09 01   16 13 65 6C 79 74 72 6F  .H........elytro
+03E0: 6E 40 77 69 6C 64 66 6C   79 2E 6F 72 67 31 23 30  n@wildfly.org1#0
+03F0: 21 06 03 55 04 0A 0C 1A   52 6F 6F 74 20 43 65 72  !..U....Root Cer
+0400: 74 69 66 69 63 61 74 65   20 41 75 74 68 6F 72 69  tificate Authori
+0410: 74 79 30 1E 17 0D 31 36   30 31 32 38 31 39 30 37  ty0...1601281907
+0420: 31 34 5A 17 0D 32 36 30   31 32 35 31 39 30 37 31  14Z..26012519071
+0430: 34 5A 30 7D 31 13 30 11   06 03 55 04 03 0C 0A 45  4Z0.1.0...U....E
+0440: 6C 79 74 72 6F 6E 20 43   41 31 10 30 0E 06 03 55  lytron CA1.0...U
+0450: 04 08 0C 07 45 6C 79 74   72 6F 6E 31 0B 30 09 06  ....Elytron1.0..
+0460: 03 55 04 06 13 02 55 4B   31 22 30 20 06 09 2A 86  .U....UK1"0 ..*.
+0470: 48 86 F7 0D 01 09 01 16   13 65 6C 79 74 72 6F 6E  H........elytron
+0480: 40 77 69 6C 64 66 6C 79   2E 6F 72 67 31 23 30 21  @wildfly.org1#0!
+0490: 06 03 55 04 0A 0C 1A 52   6F 6F 74 20 43 65 72 74  ..U....Root Cert
+04A0: 69 66 69 63 61 74 65 20   41 75 74 68 6F 72 69 74  ificate Authorit
+04B0: 79 30 82 01 22 30 0D 06   09 2A 86 48 86 F7 0D 01  y0.."0...*.H....
+04C0: 01 01 05 00 03 82 01 0F   00 30 82 01 0A 02 82 01  .........0......
+04D0: 01 00 D8 9D D2 3B 3F 35   69 40 F0 75 2D CA CC 7F  .....;?5i@.u-...
+04E0: 01 61 F2 FE EF 1B 9E 27   DA 72 81 8E 16 3A 33 6D  .a.....'.r...:3m
+04F0: F1 25 7D 26 BA D3 50 80   4C AA 75 78 6A 95 D0 1E  .%.&..P.L.uxj...
+0500: AC D7 BF 57 B8 88 FA 50   CC 09 A8 AE A8 33 4E 5E  ...W...P.....3N^
+0510: 15 99 B7 E7 74 ED EF E1   B9 0B 6F EE 81 A5 3B 1D  ....t.....o...;.
+0520: 6F 61 31 57 FD D5 28 B7   38 AE 82 BA 72 BD 11 68  oa1W..(.8...r..h
+0530: F5 F4 EA D4 07 1E DE 3B   7E FA 73 03 D4 BA 50 AC  .......;..s...P.
+0540: E7 5A 6E 4C A0 23 7B 33   02 29 B4 D2 44 93 DD 3F  .ZnL.#.3.)..D..?
+0550: 06 62 07 F2 3E 2E A6 5D   A2 96 B6 79 08 10 CE C2  .b..>..]...y....
+0560: 6A 20 67 FD DD 85 A3 A5   7D D4 1E 7A 8E 6E EB DA  j g........z.n..
+0570: 89 E5 1D 4C 8C 8C F3 D2   D1 D5 57 A3 AC 04 9D CF  ...L......W.....
+0580: 96 96 0F AD 80 E6 C8 BF   82 5E 2D FB 5A 51 CB 00  .........^-.ZQ..
+0590: E2 16 44 3C 3D 68 4B 92   6E D0 22 86 A2 9D C8 45  ..D<=hK.n."....E
+05A0: D9 4B 6C 48 E6 60 1B 96   8A AA D7 7D 73 AD CD FB  .KlH.`......s...
+05B0: 7B B0 C4 C3 F9 A9 27 F4   52 86 09 89 0F 76 E6 68  ......'.R....v.h
+05C0: E5 34 AA 14 39 68 F6 ED   F4 00 A8 CB D5 F4 45 F6  .4..9h........E.
+05D0: 34 B9 02 03 01 00 01 A3   10 30 0E 30 0C 06 03 55  4........0.0...U
+05E0: 1D 13 04 05 30 03 01 01   FF 30 0D 06 09 2A 86 48  ....0....0...*.H
+05F0: 86 F7 0D 01 01 05 05 00   03 82 01 01 00 D2 66 59  ..............fY
+0600: 95 8D 74 9E 78 86 AF 73   8B 61 9E 55 F1 0B E5 11  ..t.x..s.a.U....
+0610: 28 65 96 BC 20 DC A9 4A   3D 4E 4B 93 F5 34 CC 6D  (e.. ..J=NK..4.m
+0620: 6C B5 85 86 7A 8A E4 99   82 2E C9 57 AF C6 B1 C2  l...z......W....
+0630: 21 8A 44 01 FD DF 99 B6   51 6D 99 42 94 41 38 81  !.D.....Qm.B.A8.
+0640: 52 BA 40 22 12 A9 B9 1D   3D 0A E0 74 F4 84 AB B8  R.@"....=..t....
+0650: 72 2E DF C0 CA CD 11 B1   10 29 89 D7 4C 43 F8 6E  r........)..LC.n
+0660: 98 CC 45 66 02 1F 61 73   E2 03 87 38 EA 98 E3 30  ..Ef..as...8...0
+0670: A2 DB 8A 47 1D D6 52 80   99 C2 52 CA 78 B1 16 84  ...G..R...R.x...
+0680: E1 AA 7F 20 00 E9 07 6D   96 7D FB F4 B4 06 2F 87  ... ...m....../.
+0690: 2E DD 60 56 76 C0 B2 6A   CA AA D7 62 D7 87 7F 58  ..`Vv..j...b...X
+06A0: 97 69 2F 1A 54 9A 00 00   DF DA 15 97 9A 1A B0 6F  .i/.T..........o
+06B0: 08 98 85 E7 5C 85 3B B7   21 3D A4 D0 43 B5 F3 9C  ....\.;.!=..C...
+06C0: C7 0A 45 FC 29 E1 EA 4A   9C 1A 81 CB 02 BC 30 42  ..E.)..J......0B
+06D0: E4 A8 EB 0F 5F A4 E4 35   02 C6 E3 4F 3E 31 9D 61  ...._..5...O>1.a
+06E0: D3 3D EC 16 09 F7 1F 29   2E AA 98 49 FD DD CD 03  .=.....)...I....
+06F0: 7E CF C5 55 CD 5F D9 01   17 76 C2 C7 32           ...U._...v..2
+*** ECDHClientKeyExchange
+ECDH Public value:  { 4, 72, 106, 208, 163, 59, 221, 64, 235, 217, 0, 46, 179, 31, 64, 154, 199, 1, 23, 250, 110, 188, 89, 8, 57, 7, 43, 162, 30, 32, 228, 58, 185, 164, 28, 164, 151, 187, 49, 158, 192, 152, 212, 253, 235, 206, 99, 113, 224, 247, 168, 176, 189, 211, 181, 31, 46, 154, 78, 240, 159, 6, 97, 240, 223 }
+[read] MD5 and SHA1 hashes:  len = 70
+0000: 10 00 00 42 41 04 48 6A   D0 A3 3B DD 40 EB D9 00  ...BA.Hj..;.@...
+0010: 2E B3 1F 40 9A C7 01 17   FA 6E BC 59 08 39 07 2B  ...@.....n.Y.9.+
+0020: A2 1E 20 E4 3A B9 A4 1C   A4 97 BB 31 9E C0 98 D4  .. .:......1....
+0030: FD EB CE 63 71 E0 F7 A8   B0 BD D3 B5 1F 2E 9A 4E  ...cq..........N
+0040: F0 9F 06 61 F0 DF                                  ...a..
+SESSION KEYGEN:
+PreMaster Secret:
+0000: 20 8A D6 B6 93 91 9B 07   66 CE E4 BE 62 C5 4C 90   .......f...b.L.
+0010: 13 36 4B 3E E1 97 04 9E   1D 73 53 27 56 2F 68 89  .6K>.....sS'V/h.
+CONNECTION KEYGEN:
+Client Nonce:
+0000: 5B BB 72 67 26 B6 74 9C   7C 39 5B 00 D4 94 39 A1  [.rg&.t..9[...9.
+0010: 43 AD 55 B9 D2 89 80 1F   89 7A 55 7B D7 96 C8 A3  C.U......zU.....
+Server Nonce:
+0000: 5B BB 72 67 37 2E 13 7A   E2 FD C2 51 7A E3 F0 BC  [.rg7..z...Qz...
+0010: 95 1E CE 27 AF D0 14 4A   DA 16 20 C2 66 A4 AE 14  ...'...J.. .f...
+Master Secret:
+0000: 34 41 E7 1B 7D DB 89 6B   A7 62 8A 12 78 CE B7 6A  4A.....k.b..x..j
+0010: 35 75 75 60 64 DF 11 8F   8F 4C 4E 50 5F DC 73 BD  5uu`d....LNP_.s.
+0020: 80 01 47 1E 0F EE AF A4   82 AE 75 D0 00 D6 39 71  ..G.......u...9q
+Client MAC write Secret:
+0000: 73 DF 6E F2 0E DF 09 D8   39 6B BD F4 33 98 0A 8B  s.n.....9k..3...
+0010: 0F D4 B9 15 5C 94 DC CD   91 B2 54 B2 93 98 A6 11  ....\.....T.....
+0020: C3 80 CD 2B D7 28 64 0B   27 93 AC 29 DD C8 EB 50  ...+.(d.'..)...P
+Server MAC write Secret:
+0000: 8C 8C 41 35 D2 91 66 C8   DD A8 EF DB A6 D2 65 48  ..A5..f.......eH
+0010: 42 AB 71 25 74 7B 80 A9   3F C7 83 55 30 36 5A C5  B.q%t...?..U06Z.
+0020: A0 48 5F AD 92 B2 36 6A   2C 44 83 D7 A6 61 F6 40  .H_...6j,D...a.@
+Client write key:
+0000: 10 6D C4 F2 F4 0B EB 96   5B 69 F9 8D B7 48 3D 8C  .m......[i...H=.
+0010: B9 04 78 01 6F B1 93 99   DC B8 3A 04 8B 9C 24 F7  ..x.o.....:...$.
+Server write key:
+0000: 8E 36 A2 C8 6C B3 19 C9   EE 80 79 F5 4B 1D 4D 6E  .6..l.....y.K.Mn
+0010: B3 D8 E1 35 30 90 C0 51   2E 68 87 51 C6 5E 8D 47  ...50..Q.h.Q.^.G
+... no IV derived for this protocol
+[Raw read]: length = 5
+0000: 16 03 03 01 08                                     .....
+[Raw read]: length = 264
+0000: 0F 00 01 04 06 01 01 00   94 8E BA 7C 1A 0A B1 62  ...............b
+0010: 5C F7 8E 4F 95 09 5D 6C   99 CA DD 48 7E 5B A1 00  \..O..]l...H.[..
+0020: 1A 2D 41 E3 99 5E 67 CA   CB 22 B8 5A 92 19 35 6E  .-A..^g..".Z..5n
+0030: 29 4D A4 35 26 D5 27 BB   B8 36 E6 07 9D 9B C6 51  )M.5&.'..6.....Q
+0040: 12 C3 8C 90 50 1C 96 7E   81 E3 D7 6E 19 83 E2 9C  ....P......n....
+0050: 4A BE 24 03 7A 64 48 A3   23 83 7D A0 82 11 9E 38  J.$.zdH.#......8
+0060: 2A 25 1A 9E 01 89 30 9D   0E 90 6A A9 50 C2 B9 0D  *%....0...j.P...
+0070: 10 5A 58 02 A5 F4 61 45   7E AF CF 67 EC 4E 21 C7  .ZX...aE...g.N!.
+0080: 94 EF 36 58 7A 34 DB 7F   C3 23 00 47 92 D2 43 CE  ..6Xz4...#.G..C.
+0090: 04 A8 75 94 DE 48 60 64   71 A0 06 9E BA E8 69 C1  ..u..H`dq.....i.
+00A0: F0 8A FB AE 79 8D D1 72   6A B9 D4 4A D0 6C B0 BF  ....y..rj..J.l..
+00B0: 35 25 14 6A 2E 5E 1C 6C   80 DD A3 43 C6 80 AD 84  5%.j.^.l...C....
+00C0: CE C8 4E D8 6B 62 47 F8   D3 02 16 B6 AA E1 B9 E8  ..N.kbG.........
+00D0: 0A A0 41 17 66 FC 4C 63   16 32 61 40 4E 3A F2 B0  ..A.f.Lc.2a@N:..
+00E0: 3F 24 30 D7 D7 FE 2D F8   0E FD 9D 73 37 09 60 2B  ?$0...-....s7.`+
+00F0: B2 FE D7 F6 6F 32 DB A4   D2 2D 9F 4D D3 7E 77 C2  ....o2...-.M..w.
+0100: C2 7E 9B 19 F0 A1 33 B1                            ......3.
+main, READ: TLSv1.2 Handshake, length = 264
+*** CertificateVerify
+Signature Algorithm SHA512withRSA
+[read] MD5 and SHA1 hashes:  len = 264
+0000: 0F 00 01 04 06 01 01 00   94 8E BA 7C 1A 0A B1 62  ...............b
+0010: 5C F7 8E 4F 95 09 5D 6C   99 CA DD 48 7E 5B A1 00  \..O..]l...H.[..
+0020: 1A 2D 41 E3 99 5E 67 CA   CB 22 B8 5A 92 19 35 6E  .-A..^g..".Z..5n
+0030: 29 4D A4 35 26 D5 27 BB   B8 36 E6 07 9D 9B C6 51  )M.5&.'..6.....Q
+0040: 12 C3 8C 90 50 1C 96 7E   81 E3 D7 6E 19 83 E2 9C  ....P......n....
+0050: 4A BE 24 03 7A 64 48 A3   23 83 7D A0 82 11 9E 38  J.$.zdH.#......8
+0060: 2A 25 1A 9E 01 89 30 9D   0E 90 6A A9 50 C2 B9 0D  *%....0...j.P...
+0070: 10 5A 58 02 A5 F4 61 45   7E AF CF 67 EC 4E 21 C7  .ZX...aE...g.N!.
+0080: 94 EF 36 58 7A 34 DB 7F   C3 23 00 47 92 D2 43 CE  ..6Xz4...#.G..C.
+0090: 04 A8 75 94 DE 48 60 64   71 A0 06 9E BA E8 69 C1  ..u..H`dq.....i.
+00A0: F0 8A FB AE 79 8D D1 72   6A B9 D4 4A D0 6C B0 BF  ....y..rj..J.l..
+00B0: 35 25 14 6A 2E 5E 1C 6C   80 DD A3 43 C6 80 AD 84  5%.j.^.l...C....
+00C0: CE C8 4E D8 6B 62 47 F8   D3 02 16 B6 AA E1 B9 E8  ..N.kbG.........
+00D0: 0A A0 41 17 66 FC 4C 63   16 32 61 40 4E 3A F2 B0  ..A.f.Lc.2a@N:..
+00E0: 3F 24 30 D7 D7 FE 2D F8   0E FD 9D 73 37 09 60 2B  ?$0...-....s7.`+
+00F0: B2 FE D7 F6 6F 32 DB A4   D2 2D 9F 4D D3 7E 77 C2  ....o2...-.M..w.
+0100: C2 7E 9B 19 F0 A1 33 B1                            ......3.
+[Raw read]: length = 5
+0000: 14 03 03 00 01                                     .....
+[Raw read]: length = 1
+0000: 01                                                 .
+main, READ: TLSv1.2 Change Cipher Spec, length = 1
+[Raw read]: length = 5
+0000: 16 03 03 00 60                                     ....`
+[Raw read]: length = 96
+0000: 43 19 F3 27 14 07 60 E5   18 84 8F 38 A6 E1 1A 6B  C..'..`....8...k
+0010: 39 CB 6A 4D A5 6D 47 ED   62 FE BE 75 15 F3 C3 BD  9.jM.mG.b..u....
+0020: 7A 00 F4 89 96 28 66 DC   E1 3A 52 99 04 DE 22 83  z....(f..:R...".
+0030: 93 D7 25 82 0E 31 41 63   6B 90 F6 CA 16 63 96 F2  ..%..1Ack....c..
+0040: FA 03 E8 B2 AF 60 C3 E2   D0 DE 29 42 9D DE 6F A7  .....`....)B..o.
+0050: FC 7B 61 F4 C1 94 B4 41   07 AF 40 D7 1B AA F9 C3  ..a....A..@.....
+main, READ: TLSv1.2 Handshake, length = 96
+Padded plaintext after DECRYPTION:  len = 96
+0000: 4B 8A 8C 83 71 2A 17 01   FB CC B4 69 DD 91 41 11  K...q*.....i..A.
+0010: 14 00 00 0C 40 F0 02 53   35 DE D3 4A DF 64 6F E7  ....@..S5..J.do.
+0020: 34 F8 07 96 8E 11 64 F0   E6 20 54 7E 7C DB 4E BA  4.....d.. T...N.
+0030: 55 E2 45 F0 25 EF 3B CD   61 1E 3C 79 60 BC F5 51  U.E.%.;.a.<y`..Q
+0040: 4C 0B 59 84 64 D4 B2 69   A2 85 46 CD 10 9D F5 F7  L.Y.d..i..F.....
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+*** Finished
+verify_data:  { 64, 240, 2, 83, 53, 222, 211, 74, 223, 100, 111, 231 }
+***
+[read] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C 40 F0 02 53   35 DE D3 4A DF 64 6F E7  ....@..S5..J.do.
+main, WRITE: TLSv1.2 Change Cipher Spec, length = 1
+[Raw write]: length = 6
+0000: 14 03 03 00 01 01                                  ......
+*** Finished
+verify_data:  { 99, 226, 206, 166, 32, 144, 131, 179, 153, 48, 169, 146 }
+***
+[write] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C 63 E2 CE A6   20 90 83 B3 99 30 A9 92  ....c... ....0..
+Padded plaintext before ENCRYPTION:  len = 96
+0000: 97 C1 F5 EE F1 D7 94 9D   B4 30 30 6F 6E CA AD A9  .........00on...
+0010: 14 00 00 0C 63 E2 CE A6   20 90 83 B3 99 30 A9 92  ....c... ....0..
+0020: 73 4A 12 33 83 1C 42 6A   B5 B1 EE F0 B4 D0 38 09  sJ.3..Bj......8.
+0030: E2 F7 DA 97 AB 68 22 12   93 AB D6 F8 7C 93 17 99  .....h".........
+0040: C7 A4 D7 8C 4B E7 7C E6   DB 33 CC 52 2E 2E D5 FF  ....K....3.R....
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+main, WRITE: TLSv1.2 Handshake, length = 96
+[Raw write]: length = 101
+0000: 16 03 03 00 60 5C 26 28   37 E8 3A 9B A5 A0 FF 26  ....`\&(7.:....&
+0010: 00 34 50 2A C5 B0 21 AA   66 7E 58 EC 15 E0 1C 70  .4P*..!.f.X....p
+0020: BD 12 13 95 08 50 CC 9D   76 93 1A 08 1B D2 50 0E  .....P..v.....P.
+0030: 46 1E E7 17 4F 4A 8B 51   A6 C4 0C 7F 04 27 BE 56  F...OJ.Q.....'.V
+0040: EE 30 8A 6A 9A 85 26 03   B8 5C A3 22 02 EB 57 B6  .0.j..&..\."..W.
+0050: B2 D0 69 0A 5B 96 E7 D6   74 AC F6 F5 14 46 D0 01  ..i.[...t....F..
+0060: FA 08 C0 44 AD                                     ...D.
+%% Cached server session: [Session-1, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]
+
+ * * SSL Session Information - START * *
+
+1 {[�rg6���WI]���m���KY|͌\gZ�f��}
+1 Sessions
+
+ * * SSL Session Information - END * *
+
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+[Raw read]: length = 5
+0000: 16 03 03 00 AF                                     .....
+[Raw read]: length = 175
+0000: 01 00 00 AB 03 03 5B BB   72 68 88 92 77 96 FA 2E  ......[.rh..w...
+0010: C6 71 F3 13 B1 A6 08 E7   07 69 10 BD 51 A0 F4 74  .q.......i..Q..t
+0020: 38 EF 9E 17 D7 AB 20 5B   BB 72 67 36 A5 BC DF 57  8..... [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 00   32 C0 24 C0 28 00 3D 00  gZ.f....2.$.(.=.
+0050: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0060: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0070: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0080: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0090: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+00A0: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+main, READ: TLSv1.2 Handshake, length = 175
+*** ClientHello, TLSv1.2
+RandomCookie:  GMT: 1522233960 bytes = { 136, 146, 119, 150, 250, 46, 198, 113, 243, 19, 177, 166, 8, 231, 7, 105, 16, 189, 81, 160, 244, 116, 56, 239, 158, 23, 215, 171 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, secp384r1, secp521r1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA224withECDSA, SHA224withRSA, SHA1withECDSA, SHA1withRSA
+Extension extended_master_secret
+***
+[read] MD5 and SHA1 hashes:  len = 175
+0000: 01 00 00 AB 03 03 5B BB   72 68 88 92 77 96 FA 2E  ......[.rh..w...
+0010: C6 71 F3 13 B1 A6 08 E7   07 69 10 BD 51 A0 F4 74  .q.......i..Q..t
+0020: 38 EF 9E 17 D7 AB 20 5B   BB 72 67 36 A5 BC DF 57  8..... [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 00   32 C0 24 C0 28 00 3D 00  gZ.f....2.$.(.=.
+0050: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0060: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0070: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0080: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0090: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+00A0: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+%% Resuming [Session-1, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]
+*** ServerHello, TLSv1.2
+RandomCookie:  GMT: 1522233960 bytes = { 78, 60, 249, 232, 95, 201, 37, 175, 125, 139, 250, 125, 197, 103, 196, 117, 126, 58, 7, 56, 192, 102, 116, 129, 82, 217, 137, 119 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+Extension extended_master_secret
+***
+Cipher suite:  TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+CONNECTION KEYGEN:
+Client Nonce:
+0000: 5B BB 72 68 88 92 77 96   FA 2E C6 71 F3 13 B1 A6  [.rh..w....q....
+0010: 08 E7 07 69 10 BD 51 A0   F4 74 38 EF 9E 17 D7 AB  ...i..Q..t8.....
+Server Nonce:
+0000: 5B BB 72 68 4E 3C F9 E8   5F C9 25 AF 7D 8B FA 7D  [.rhN<.._.%.....
+0010: C5 67 C4 75 7E 3A 07 38   C0 66 74 81 52 D9 89 77  .g.u.:.8.ft.R..w
+Master Secret:
+0000: 34 41 E7 1B 7D DB 89 6B   A7 62 8A 12 78 CE B7 6A  4A.....k.b..x..j
+0010: 35 75 75 60 64 DF 11 8F   8F 4C 4E 50 5F DC 73 BD  5uu`d....LNP_.s.
+0020: 80 01 47 1E 0F EE AF A4   82 AE 75 D0 00 D6 39 71  ..G.......u...9q
+Client MAC write Secret:
+0000: 44 83 F0 A4 8F 0C EE 7C   3E 1A D8 F0 F7 CF 24 63  D.......>.....$c
+0010: EE 80 50 3D AB C0 BC 24   17 45 60 88 2D E4 9D 80  ..P=...$.E`.-...
+0020: 0A 86 58 76 36 C8 F8 F5   9F D1 07 1A 72 C9 F6 F2  ..Xv6.......r...
+Server MAC write Secret:
+0000: 7D 2E 43 04 2F FC 79 E8   EB A6 33 2A 6A 09 77 AE  ..C./.y...3*j.w.
+0010: A3 EE 33 4A 67 88 62 C3   1F D8 B5 C3 8B 8F 41 DA  ..3Jg.b.......A.
+0020: 7C 26 A6 29 93 FA 3F 57   8E E5 90 C5 D4 26 3C 80  .&.)..?W.....&<.
+Client write key:
+0000: 89 11 1E 5A 18 77 5B 9C   83 A1 E7 2E 97 0E 7E 3E  ...Z.w[........>
+0010: 64 7E 62 AE 3E 9B 36 53   E4 F2 87 DF 7B 37 76 E6  d.b.>.6S.....7v.
+Server write key:
+0000: 06 53 1F CB CE CF 6A 71   6A 54 D1 A9 96 A7 30 A3  .S....jqjT....0.
+0010: 5E D0 3B 0E 84 D3 BF FF   EF DF DD 16 1E 25 F7 C0  ^.;..........%..
+... no IV derived for this protocol
+[write] MD5 and SHA1 hashes:  len = 85
+0000: 02 00 00 51 03 03 5B BB   72 68 4E 3C F9 E8 5F C9  ...Q..[.rhN<.._.
+0010: 25 AF 7D 8B FA 7D C5 67   C4 75 7E 3A 07 38 C0 66  %......g.u.:.8.f
+0020: 74 81 52 D9 89 77 20 5B   BB 72 67 36 A5 BC DF 57  t.R..w [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 C0   28 00 00 09 FF 01 00 01  gZ.f....(.......
+0050: 00 00 17 00 00                                     .....
+main, WRITE: TLSv1.2 Handshake, length = 85
+[Raw write]: length = 90
+0000: 16 03 03 00 55 02 00 00   51 03 03 5B BB 72 68 4E  ....U...Q..[.rhN
+0010: 3C F9 E8 5F C9 25 AF 7D   8B FA 7D C5 67 C4 75 7E  <.._.%......g.u.
+0020: 3A 07 38 C0 66 74 81 52   D9 89 77 20 5B BB 72 67  :.8.ft.R..w [.rg
+0030: 36 A5 BC DF 57 49 5D 9C   D5 F3 6D 96 CD DE 4B 59  6...WI]...m...KY
+0040: 7C CD 8C 5C 04 67 5A A6   66 EF D1 14 C0 28 00 00  ...\.gZ.f....(..
+0050: 09 FF 01 00 01 00 00 17   00 00                    ..........
+main, WRITE: TLSv1.2 Change Cipher Spec, length = 1
+[Raw write]: length = 6
+0000: 14 03 03 00 01 01                                  ......
+*** Finished
+verify_data:  { 77, 250, 209, 252, 168, 181, 90, 104, 17, 234, 214, 119 }
+***
+[write] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C 4D FA D1 FC   A8 B5 5A 68 11 EA D6 77  ....M.....Zh...w
+Padded plaintext before ENCRYPTION:  len = 96
+0000: 2A 54 80 2E 35 83 5E 4A   DD AC 73 39 CE 31 BA 92  *T..5.^J..s9.1..
+0010: 14 00 00 0C 4D FA D1 FC   A8 B5 5A 68 11 EA D6 77  ....M.....Zh...w
+0020: 59 F3 01 EE 61 E7 FF 13   B9 55 C2 7E 36 65 19 73  Y...a....U..6e.s
+0030: 92 3B 3F 2B E3 86 2F F3   A0 48 F3 BD 58 0D 70 B4  .;?+../..H..X.p.
+0040: E7 35 4C 70 FE 50 D1 33   DA 8D D9 AD C9 2C 06 31  .5Lp.P.3.....,.1
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+main, WRITE: TLSv1.2 Handshake, length = 96
+[Raw write]: length = 101
+0000: 16 03 03 00 60 A3 57 F3   17 98 69 10 8D 1D 84 41  ....`.W...i....A
+0010: 6D D1 85 9C FB 51 CA D0   9B 62 3A F4 5E 32 4C A0  m....Q...b:.^2L.
+0020: 6D D9 AA F9 CD 15 CB 70   E5 4F 41 28 88 9B CD F5  m......p.OA(....
+0030: 3D 99 E9 E9 DE E4 77 92   6B DA 7D 12 E9 5B 41 AE  =.....w.k....[A.
+0040: 9D 50 B1 1D 8B 4F 88 1D   E9 33 64 7C 28 C5 02 50  .P...O...3d.(..P
+0050: 53 0A F5 AD 01 28 21 08   DF 65 14 D0 B1 2F 58 9D  S....(!..e.../X.
+0060: F2 37 E5 55 7B                                     .7.U.
+[Raw read]: length = 5
+0000: 14 03 03 00 01                                     .....
+[Raw read]: length = 1
+0000: 01                                                 .
+main, READ: TLSv1.2 Change Cipher Spec, length = 1
+[Raw read]: length = 5
+0000: 16 03 03 00 60                                     ....`
+[Raw read]: length = 96
+0000: 48 3B 23 2A 21 12 EF 98   AB C0 23 A9 C1 B8 34 FC  H;#*!.....#...4.
+0010: D2 59 A2 66 68 45 A9 34   C9 89 9F 47 4A 38 34 0D  .Y.fhE.4...GJ84.
+0020: 2D DF 41 D8 A7 6F 10 0D   4F B4 22 E3 AB D4 D9 32  -.A..o..O."....2
+0030: A5 52 1B 23 32 00 58 49   E4 64 31 DC 78 6D 89 41  .R.#2.XI.d1.xm.A
+0040: 76 91 50 92 9A BC CB 81   0D BD E7 40 4B F7 E8 C8  v.P........@K...
+0050: 51 AD CA 4D 3B CB 41 F8   40 53 47 56 4B C9 CD B7  Q..M;.A.@SGVK...
+main, READ: TLSv1.2 Handshake, length = 96
+Padded plaintext after DECRYPTION:  len = 96
+0000: 9B DC 5C 4C 15 97 D2 3A   BF 93 F7 98 0D BB 75 C4  ..\L...:......u.
+0010: 14 00 00 0C FD 61 32 64   3F 96 F9 7A CA 22 C9 2B  .....a2d?..z.".+
+0020: 2F 1E C5 8A E0 26 6E C9   BE 26 F4 02 E9 2E 58 F4  /....&n..&....X.
+0030: D2 0A A9 84 A3 F9 4A 9A   89 8E 59 B6 34 17 3B 19  ......J...Y.4.;.
+0040: 67 47 06 32 88 70 6C C1   64 52 8E 77 72 10 B4 F7  gG.2.pl.dR.wr...
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+*** Finished
+verify_data:  { 253, 97, 50, 100, 63, 150, 249, 122, 202, 34, 201, 43 }
+***
+[read] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C FD 61 32 64   3F 96 F9 7A CA 22 C9 2B  .....a2d?..z.".+
+
+ * * SSL Session Information - START * *
+
+1 {[�rg6���WI]���m���KY|͌\gZ�f��}
+1 Sessions
+
+ * * SSL Session Information - END * *
+
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+[Raw read]: length = 5
+0000: 16 03 03 00 AF                                     .....
+[Raw read]: length = 175
+0000: 01 00 00 AB 03 03 5B BB   72 68 19 22 2A 2C AB AF  ......[.rh."*,..
+0010: F8 F3 06 C4 CC 09 23 3F   03 62 C4 2D E7 47 89 2A  ......#?.b.-.G.*
+0020: 18 90 99 E0 79 05 20 5B   BB 72 67 36 A5 BC DF 57  ....y. [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 00   32 C0 24 C0 28 00 3D 00  gZ.f....2.$.(.=.
+0050: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0060: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0070: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0080: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0090: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+00A0: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+main, READ: TLSv1.2 Handshake, length = 175
+*** ClientHello, TLSv1.2
+RandomCookie:  GMT: 1522233960 bytes = { 25, 34, 42, 44, 171, 175, 248, 243, 6, 196, 204, 9, 35, 63, 3, 98, 196, 45, 231, 71, 137, 42, 24, 144, 153, 224, 121, 5 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, secp384r1, secp521r1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA224withECDSA, SHA224withRSA, SHA1withECDSA, SHA1withRSA
+Extension extended_master_secret
+***
+[read] MD5 and SHA1 hashes:  len = 175
+0000: 01 00 00 AB 03 03 5B BB   72 68 19 22 2A 2C AB AF  ......[.rh."*,..
+0010: F8 F3 06 C4 CC 09 23 3F   03 62 C4 2D E7 47 89 2A  ......#?.b.-.G.*
+0020: 18 90 99 E0 79 05 20 5B   BB 72 67 36 A5 BC DF 57  ....y. [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 00   32 C0 24 C0 28 00 3D 00  gZ.f....2.$.(.=.
+0050: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0060: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0070: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0080: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0090: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+00A0: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+%% Resuming [Session-1, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]
+*** ServerHello, TLSv1.2
+RandomCookie:  GMT: 1522233960 bytes = { 13, 222, 170, 42, 107, 69, 191, 150, 232, 33, 149, 153, 3, 24, 231, 77, 29, 169, 255, 159, 91, 104, 5, 33, 125, 165, 199, 123 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+Extension extended_master_secret
+***
+Cipher suite:  TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+CONNECTION KEYGEN:
+Client Nonce:
+0000: 5B BB 72 68 19 22 2A 2C   AB AF F8 F3 06 C4 CC 09  [.rh."*,........
+0010: 23 3F 03 62 C4 2D E7 47   89 2A 18 90 99 E0 79 05  #?.b.-.G.*....y.
+Server Nonce:
+0000: 5B BB 72 68 0D DE AA 2A   6B 45 BF 96 E8 21 95 99  [.rh...*kE...!..
+0010: 03 18 E7 4D 1D A9 FF 9F   5B 68 05 21 7D A5 C7 7B  ...M....[h.!....
+Master Secret:
+0000: 34 41 E7 1B 7D DB 89 6B   A7 62 8A 12 78 CE B7 6A  4A.....k.b..x..j
+0010: 35 75 75 60 64 DF 11 8F   8F 4C 4E 50 5F DC 73 BD  5uu`d....LNP_.s.
+0020: 80 01 47 1E 0F EE AF A4   82 AE 75 D0 00 D6 39 71  ..G.......u...9q
+Client MAC write Secret:
+0000: 69 E6 8B 1B 9F 6B 57 42   5C 34 AB E8 31 36 78 C9  i....kWB\4..16x.
+0010: 7B FC 23 DC 03 0F 65 82   8C C0 B5 AA E0 4C 9A 80  ..#...e......L..
+0020: 5E F8 39 BB 37 68 4E A3   BB A3 6B 2E 4A 77 0C 14  ^.9.7hN...k.Jw..
+Server MAC write Secret:
+0000: 0B 20 2A 21 B6 0C 53 73   5C AA 92 D4 BC 30 0F 6C  . *!..Ss\....0.l
+0010: 6B 26 15 98 AD 71 13 97   E8 6E EF 44 3D BE 31 CA  k&...q...n.D=.1.
+0020: 09 51 0A 15 56 29 1A 38   12 5B 80 23 61 F2 7E BA  .Q..V).8.[.#a...
+Client write key:
+0000: 6B E6 EE 3C 11 2D 45 B1   55 B6 2D 0E AC 19 55 A6  k..<.-E.U.-...U.
+0010: 5A 66 92 99 86 F4 9C 66   DD 0C 42 1D EF 44 46 AF  Zf.....f..B..DF.
+Server write key:
+0000: 71 96 4B 91 4F 6A AA 74   8C 86 02 87 A8 08 34 3D  q.K.Oj.t......4=
+0010: 24 DF 19 D9 2C 16 B0 0C   6B B0 35 06 F5 95 A0 50  $...,...k.5....P
+... no IV derived for this protocol
+[write] MD5 and SHA1 hashes:  len = 85
+0000: 02 00 00 51 03 03 5B BB   72 68 0D DE AA 2A 6B 45  ...Q..[.rh...*kE
+0010: BF 96 E8 21 95 99 03 18   E7 4D 1D A9 FF 9F 5B 68  ...!.....M....[h
+0020: 05 21 7D A5 C7 7B 20 5B   BB 72 67 36 A5 BC DF 57  .!.... [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 C0   28 00 00 09 FF 01 00 01  gZ.f....(.......
+0050: 00 00 17 00 00                                     .....
+main, WRITE: TLSv1.2 Handshake, length = 85
+[Raw write]: length = 90
+0000: 16 03 03 00 55 02 00 00   51 03 03 5B BB 72 68 0D  ....U...Q..[.rh.
+0010: DE AA 2A 6B 45 BF 96 E8   21 95 99 03 18 E7 4D 1D  ..*kE...!.....M.
+0020: A9 FF 9F 5B 68 05 21 7D   A5 C7 7B 20 5B BB 72 67  ...[h.!.... [.rg
+0030: 36 A5 BC DF 57 49 5D 9C   D5 F3 6D 96 CD DE 4B 59  6...WI]...m...KY
+0040: 7C CD 8C 5C 04 67 5A A6   66 EF D1 14 C0 28 00 00  ...\.gZ.f....(..
+0050: 09 FF 01 00 01 00 00 17   00 00                    ..........
+main, WRITE: TLSv1.2 Change Cipher Spec, length = 1
+[Raw write]: length = 6
+0000: 14 03 03 00 01 01                                  ......
+*** Finished
+verify_data:  { 174, 201, 95, 235, 251, 103, 59, 162, 247, 51, 236, 162 }
+***
+[write] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C AE C9 5F EB   FB 67 3B A2 F7 33 EC A2  ......_..g;..3..
+Padded plaintext before ENCRYPTION:  len = 96
+0000: 49 E5 86 8B DE 66 FE 41   94 08 C7 EB FA 8A A5 A7  I....f.A........
+0010: 14 00 00 0C AE C9 5F EB   FB 67 3B A2 F7 33 EC A2  ......_..g;..3..
+0020: 07 A1 DA 38 08 AD DD 60   09 FB B4 10 D9 56 F1 54  ...8...`.....V.T
+0030: 0B F7 12 B8 78 99 79 85   46 C5 C8 63 A3 64 92 46  ....x.y.F..c.d.F
+0040: B9 5E B2 72 48 7E 01 26   B6 F9 C0 DB A9 A3 04 97  .^.rH..&........
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+main, WRITE: TLSv1.2 Handshake, length = 96
+[Raw write]: length = 101
+0000: 16 03 03 00 60 06 07 97   48 25 4D 76 82 B4 63 7B  ....`...H%Mv..c.
+0010: AD 48 2C EA E1 09 CC 57   35 EE 29 4A F3 D0 98 8D  .H,....W5.)J....
+0020: F4 FE 22 56 7F 89 D5 45   35 91 8D C7 30 6F 34 20  .."V...E5...0o4 
+0030: 79 94 11 1D 30 AB AC B6   94 5C 0D 35 56 C9 83 B7  y...0....\.5V...
+0040: 33 90 32 1F 35 25 28 C7   F7 8E B5 A9 2A 62 65 BE  3.2.5%(.....*be.
+0050: 90 AF F3 97 5F 84 9E 46   33 FF 82 BE EA 59 6E ED  ...._..F3....Yn.
+0060: 8A 06 AE 2B 65                                     ...+e
+[Raw read]: length = 5
+0000: 14 03 03 00 01                                     .....
+[Raw read]: length = 1
+0000: 01                                                 .
+main, READ: TLSv1.2 Change Cipher Spec, length = 1
+[Raw read]: length = 5
+0000: 16 03 03 00 60                                     ....`
+[Raw read]: length = 96
+0000: 5D E7 CE 8F 73 4E 07 C4   70 81 ED 0E 83 9D 69 91  ]...sN..p.....i.
+0010: C3 B7 F3 DC 10 D7 98 2F   48 CC DE B8 41 A6 50 15  ......./H...A.P.
+0020: 87 29 C1 F8 7E E9 53 75   37 77 44 6A 3E D1 79 DE  .)....Su7wDj>.y.
+0030: 3E 5B 53 48 67 B6 DE D7   ED ED CD 20 AB 4B 91 72  >[SHg...... .K.r
+0040: 8D F4 02 1D 8E 4F 9F 5E   E1 07 FA 23 68 68 C8 28  .....O.^...#hh.(
+0050: 4E 9A 2C 23 0E 08 2C 82   13 E3 06 03 49 50 C5 F3  N.,#..,.....IP..
+main, READ: TLSv1.2 Handshake, length = 96
+Padded plaintext after DECRYPTION:  len = 96
+0000: B9 63 67 5F D6 17 2F C6   2B E1 9B 44 95 1C 44 3F  .cg_../.+..D..D?
+0010: 14 00 00 0C 83 6E B4 1B   DB E4 6F 2E 9C D6 A3 BF  .....n....o.....
+0020: 92 89 8C 6B 6B 7A 07 E4   19 CE 9B 72 BC C9 42 53  ...kkz.....r..BS
+0030: EF 52 92 B5 F9 FF 8F C8   17 4C 5E 70 30 FB 2B 9D  .R.......L^p0.+.
+0040: FC 6A 88 24 B3 C5 A6 E3   AD A4 85 DB F3 4D 27 67  .j.$.........M'g
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+*** Finished
+verify_data:  { 131, 110, 180, 27, 219, 228, 111, 46, 156, 214, 163, 191 }
+***
+[read] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C 83 6E B4 1B   DB E4 6F 2E 9C D6 A3 BF  .....n....o.....
+
+ * * SSL Session Information - START * *
+
+1 {[�rg6���WI]���m���KY|͌\gZ�f��}
+1 Sessions
+
+ * * SSL Session Information - END * *
+
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+[Raw read]: length = 5
+0000: 16 03 03 00 AF                                     .....
+[Raw read]: length = 175
+0000: 01 00 00 AB 03 03 5B BB   72 68 05 1F 1B D6 A8 80  ......[.rh......
+0010: 22 FE 41 79 5B 46 B1 F1   6C 93 FE A6 2E 72 C4 0B  ".Ay[F..l....r..
+0020: DD 67 B4 03 61 5B 20 5B   BB 72 67 36 A5 BC DF 57  .g..a[ [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 00   32 C0 24 C0 28 00 3D 00  gZ.f....2.$.(.=.
+0050: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0060: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0070: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0080: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0090: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+00A0: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+main, READ: TLSv1.2 Handshake, length = 175
+*** ClientHello, TLSv1.2
+RandomCookie:  GMT: 1522233960 bytes = { 5, 31, 27, 214, 168, 128, 34, 254, 65, 121, 91, 70, 177, 241, 108, 147, 254, 166, 46, 114, 196, 11, 221, 103, 180, 3, 97, 91 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, secp384r1, secp521r1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA224withECDSA, SHA224withRSA, SHA1withECDSA, SHA1withRSA
+Extension extended_master_secret
+***
+[read] MD5 and SHA1 hashes:  len = 175
+0000: 01 00 00 AB 03 03 5B BB   72 68 05 1F 1B D6 A8 80  ......[.rh......
+0010: 22 FE 41 79 5B 46 B1 F1   6C 93 FE A6 2E 72 C4 0B  ".Ay[F..l....r..
+0020: DD 67 B4 03 61 5B 20 5B   BB 72 67 36 A5 BC DF 57  .g..a[ [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 00   32 C0 24 C0 28 00 3D 00  gZ.f....2.$.(.=.
+0050: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0060: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0070: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0080: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0090: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+00A0: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+%% Resuming [Session-1, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]
+*** ServerHello, TLSv1.2
+RandomCookie:  GMT: 1522233960 bytes = { 255, 31, 180, 37, 244, 131, 172, 133, 3, 151, 115, 135, 118, 76, 176, 102, 52, 250, 201, 1, 37, 243, 121, 49, 104, 64, 203, 196 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+Extension extended_master_secret
+***
+Cipher suite:  TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+CONNECTION KEYGEN:
+Client Nonce:
+0000: 5B BB 72 68 05 1F 1B D6   A8 80 22 FE 41 79 5B 46  [.rh......".Ay[F
+0010: B1 F1 6C 93 FE A6 2E 72   C4 0B DD 67 B4 03 61 5B  ..l....r...g..a[
+Server Nonce:
+0000: 5B BB 72 68 FF 1F B4 25   F4 83 AC 85 03 97 73 87  [.rh...%......s.
+0010: 76 4C B0 66 34 FA C9 01   25 F3 79 31 68 40 CB C4  vL.f4...%.y1h@..
+Master Secret:
+0000: 34 41 E7 1B 7D DB 89 6B   A7 62 8A 12 78 CE B7 6A  4A.....k.b..x..j
+0010: 35 75 75 60 64 DF 11 8F   8F 4C 4E 50 5F DC 73 BD  5uu`d....LNP_.s.
+0020: 80 01 47 1E 0F EE AF A4   82 AE 75 D0 00 D6 39 71  ..G.......u...9q
+Client MAC write Secret:
+0000: 3D 30 E3 D0 06 E3 98 B8   BB 7C B1 C3 BF 81 D8 40  =0.............@
+0010: 35 68 22 16 68 E2 1B A2   3F 0E AB 4C BC 12 E6 FC  5h".h...?..L....
+0020: B5 98 A2 0D 4D 55 37 E5   2E 33 79 81 6C 7F B1 A0  ....MU7..3y.l...
+Server MAC write Secret:
+0000: 54 EB 9A 22 16 AA 75 85   1A 28 D3 0F 2D 2D B9 76  T.."..u..(..--.v
+0010: 8D 48 3B B1 63 18 22 03   4E 8D C4 EF 5A CD BF 93  .H;.c.".N...Z...
+0020: A3 62 CB 01 B2 E4 1F 4E   36 76 EF 7A B7 DB 2D 14  .b.....N6v.z..-.
+Client write key:
+0000: E3 F7 5E F2 D7 9B EA 30   16 82 62 B2 2C CC F5 81  ..^....0..b.,...
+0010: E3 8F D7 9B C2 A5 C3 DA   9E 5A E6 67 30 37 6D 69  .........Z.g07mi
+Server write key:
+0000: B0 CD 3A F7 3E AC 00 CB   78 14 C1 4B DD 18 96 E1  ..:.>...x..K....
+0010: 21 4B 32 C4 85 86 39 CD   57 A3 81 B0 BC B6 4B 22  !K2...9.W.....K"
+... no IV derived for this protocol
+[write] MD5 and SHA1 hashes:  len = 85
+0000: 02 00 00 51 03 03 5B BB   72 68 FF 1F B4 25 F4 83  ...Q..[.rh...%..
+0010: AC 85 03 97 73 87 76 4C   B0 66 34 FA C9 01 25 F3  ....s.vL.f4...%.
+0020: 79 31 68 40 CB C4 20 5B   BB 72 67 36 A5 BC DF 57  y1h@.. [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 C0   28 00 00 09 FF 01 00 01  gZ.f....(.......
+0050: 00 00 17 00 00                                     .....
+main, WRITE: TLSv1.2 Handshake, length = 85
+[Raw write]: length = 90
+0000: 16 03 03 00 55 02 00 00   51 03 03 5B BB 72 68 FF  ....U...Q..[.rh.
+0010: 1F B4 25 F4 83 AC 85 03   97 73 87 76 4C B0 66 34  ..%......s.vL.f4
+0020: FA C9 01 25 F3 79 31 68   40 CB C4 20 5B BB 72 67  ...%.y1h@.. [.rg
+0030: 36 A5 BC DF 57 49 5D 9C   D5 F3 6D 96 CD DE 4B 59  6...WI]...m...KY
+0040: 7C CD 8C 5C 04 67 5A A6   66 EF D1 14 C0 28 00 00  ...\.gZ.f....(..
+0050: 09 FF 01 00 01 00 00 17   00 00                    ..........
+main, WRITE: TLSv1.2 Change Cipher Spec, length = 1
+[Raw write]: length = 6
+0000: 14 03 03 00 01 01                                  ......
+*** Finished
+verify_data:  { 233, 232, 11, 103, 188, 246, 111, 80, 27, 148, 21, 111 }
+***
+[write] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C E9 E8 0B 67   BC F6 6F 50 1B 94 15 6F  .......g..oP...o
+Padded plaintext before ENCRYPTION:  len = 96
+0000: 8A F8 22 1B 6C 89 B2 1D   FB C8 D7 D1 05 2E 40 0A  ..".l.........@.
+0010: 14 00 00 0C E9 E8 0B 67   BC F6 6F 50 1B 94 15 6F  .......g..oP...o
+0020: 95 4F 09 FD 15 7E 54 3D   BB 56 A2 3A FD 3A 61 B9  .O....T=.V.:.:a.
+0030: D3 23 7E 19 3B D0 D8 6F   23 D9 55 EF D4 65 3E 4E  .#..;..o#.U..e>N
+0040: 89 34 84 90 8C AC 04 F5   62 98 ED 1F 38 9A 22 13  .4......b...8.".
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+main, WRITE: TLSv1.2 Handshake, length = 96
+[Raw write]: length = 101
+0000: 16 03 03 00 60 08 87 EF   CF 2D 94 D2 C8 3A 2E 8D  ....`....-...:..
+0010: A3 C0 B7 04 06 A0 76 F8   AD 67 67 B1 A6 5E 04 80  ......v..gg..^..
+0020: D8 0D 6D A9 88 F8 CA 59   7C 98 12 3F B6 B9 64 07  ..m....Y...?..d.
+0030: 23 7A 06 05 E7 41 72 14   85 5E 47 82 7C 9C FD 83  #z...Ar..^G.....
+0040: 3E 23 97 CE E4 54 40 B4   4D C7 50 14 BD 2B B6 71  >#...T@.M.P..+.q
+0050: 66 FE ED 49 1C 47 DE 02   91 2D 47 E2 A8 C1 C9 A9  f..I.G...-G.....
+0060: 5C F6 03 38 C4                                     \..8.
+[Raw read]: length = 5
+0000: 14 03 03 00 01                                     .....
+[Raw read]: length = 1
+0000: 01                                                 .
+main, READ: TLSv1.2 Change Cipher Spec, length = 1
+[Raw read]: length = 5
+0000: 16 03 03 00 60                                     ....`
+[Raw read]: length = 96
+0000: 3E 1F 88 D0 A0 46 9E 41   3A 13 2B 07 98 6E D6 FE  >....F.A:.+..n..
+0010: 97 97 23 44 93 D6 0C 4C   D5 85 95 FC E2 7F 43 E7  ..#D...L......C.
+0020: 21 92 41 06 28 7F DC 80   75 00 BB 1C 9B 5F 7A FD  !.A.(...u...._z.
+0030: 6B 52 1E 9A 32 6C 15 F2   68 6B 56 FE 9A 2F D0 DC  kR..2l..hkV../..
+0040: EC 75 F2 8C 9F F3 77 D4   84 24 1D EC 25 2A DD E6  .u....w..$..%*..
+0050: 55 FB E1 2E 38 A0 91 17   31 14 7B F1 BE A5 85 5C  U...8...1......\
+main, READ: TLSv1.2 Handshake, length = 96
+Padded plaintext after DECRYPTION:  len = 96
+0000: E2 A4 55 84 D9 52 4C DB   AF 36 F5 B3 38 82 CB DF  ..U..RL..6..8...
+0010: 14 00 00 0C BF C5 06 57   EC 37 9E 18 AD D8 D0 03  .......W.7......
+0020: 9D 00 F6 61 DE 15 98 D4   5E 75 25 FE A3 EB 4F 3B  ...a....^u%...O;
+0030: 9F D2 8E 28 A6 D2 26 4A   87 E0 50 95 66 F7 73 F0  ...(..&J..P.f.s.
+0040: E5 C3 48 AA 8B 3C 54 64   35 70 9E 0D 8D 88 19 59  ..H..<Td5p.....Y
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+*** Finished
+verify_data:  { 191, 197, 6, 87, 236, 55, 158, 24, 173, 216, 208, 3 }
+***
+[read] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C BF C5 06 57   EC 37 9E 18 AD D8 D0 03  .......W.7......
+
+ * * SSL Session Information - START * *
+
+1 {[�rg6���WI]���m���KY|͌\gZ�f��}
+1 Sessions
+
+ * * SSL Session Information - END * *
+
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+[Raw read]: length = 5
+0000: 16 03 03 00 AF                                     .....
+[Raw read]: length = 175
+0000: 01 00 00 AB 03 03 5B BB   72 68 A6 2A 42 73 33 07  ......[.rh.*Bs3.
+0010: E1 54 59 B1 EE 2C 58 B0   72 71 C1 56 52 DB 1E 6C  .TY..,X.rq.VR..l
+0020: 24 33 4E EC E7 3A 20 5B   BB 72 67 36 A5 BC DF 57  $3N..: [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 00   32 C0 24 C0 28 00 3D 00  gZ.f....2.$.(.=.
+0050: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0060: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0070: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0080: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0090: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+00A0: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+main, READ: TLSv1.2 Handshake, length = 175
+*** ClientHello, TLSv1.2
+RandomCookie:  GMT: 1522233960 bytes = { 166, 42, 66, 115, 51, 7, 225, 84, 89, 177, 238, 44, 88, 176, 114, 113, 193, 86, 82, 219, 30, 108, 36, 51, 78, 236, 231, 58 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, secp384r1, secp521r1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA224withECDSA, SHA224withRSA, SHA1withECDSA, SHA1withRSA
+Extension extended_master_secret
+***
+[read] MD5 and SHA1 hashes:  len = 175
+0000: 01 00 00 AB 03 03 5B BB   72 68 A6 2A 42 73 33 07  ......[.rh.*Bs3.
+0010: E1 54 59 B1 EE 2C 58 B0   72 71 C1 56 52 DB 1E 6C  .TY..,X.rq.VR..l
+0020: 24 33 4E EC E7 3A 20 5B   BB 72 67 36 A5 BC DF 57  $3N..: [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 00   32 C0 24 C0 28 00 3D 00  gZ.f....2.$.(.=.
+0050: 6B C0 0A C0 14 00 35 00   39 C0 23 C0 27 00 3C 00  k.....5.9.#.'.<.
+0060: 67 C0 09 C0 13 00 2F 00   33 C0 2C C0 2B C0 30 00  g...../.3.,.+.0.
+0070: 9D 00 9F C0 2F 00 9C 00   9E 00 FF 01 00 00 30 00  ..../.........0.
+0080: 0A 00 08 00 06 00 17 00   18 00 19 00 0B 00 02 01  ................
+0090: 00 00 0D 00 16 00 14 06   03 06 01 05 03 05 01 04  ................
+00A0: 03 04 01 03 03 03 01 02   03 02 01 00 17 00 00     ...............
+%% Resuming [Session-1, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]
+*** ServerHello, TLSv1.2
+RandomCookie:  GMT: 1522233960 bytes = { 158, 179, 111, 64, 219, 173, 175, 237, 8, 150, 18, 246, 143, 35, 140, 118, 45, 90, 193, 49, 45, 164, 104, 46, 243, 79, 115, 59 }
+Session ID:  {91, 187, 114, 103, 54, 165, 188, 223, 87, 73, 93, 156, 213, 243, 109, 150, 205, 222, 75, 89, 124, 205, 140, 92, 4, 103, 90, 166, 102, 239, 209, 20}
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+Extension extended_master_secret
+***
+Cipher suite:  TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+CONNECTION KEYGEN:
+Client Nonce:
+0000: 5B BB 72 68 A6 2A 42 73   33 07 E1 54 59 B1 EE 2C  [.rh.*Bs3..TY..,
+0010: 58 B0 72 71 C1 56 52 DB   1E 6C 24 33 4E EC E7 3A  X.rq.VR..l$3N..:
+Server Nonce:
+0000: 5B BB 72 68 9E B3 6F 40   DB AD AF ED 08 96 12 F6  [.rh..o@........
+0010: 8F 23 8C 76 2D 5A C1 31   2D A4 68 2E F3 4F 73 3B  .#.v-Z.1-.h..Os;
+Master Secret:
+0000: 34 41 E7 1B 7D DB 89 6B   A7 62 8A 12 78 CE B7 6A  4A.....k.b..x..j
+0010: 35 75 75 60 64 DF 11 8F   8F 4C 4E 50 5F DC 73 BD  5uu`d....LNP_.s.
+0020: 80 01 47 1E 0F EE AF A4   82 AE 75 D0 00 D6 39 71  ..G.......u...9q
+Client MAC write Secret:
+0000: AD 95 35 A5 90 13 EE FF   F3 3E EF 7F 8F 89 44 99  ..5......>....D.
+0010: 07 1A 18 82 3A ED A8 74   9D 6C 71 F5 7D 2D 2A 2B  ....:..t.lq..-*+
+0020: 5F 69 54 64 EA B9 E7 DB   61 AF CC C2 FE 32 DD DE  _iTd....a....2..
+Server MAC write Secret:
+0000: 73 E6 F2 58 72 F2 61 0F   43 0B 21 A0 BC A2 4A 4E  s..Xr.a.C.!...JN
+0010: 0D 6C 17 4D 33 C8 89 8C   55 D9 94 B7 B1 ED 19 F9  .l.M3...U.......
+0020: BD 12 9D 4E 0C D2 6C 65   C0 0B 65 1F 75 97 9E CD  ...N..le..e.u...
+Client write key:
+0000: 0C 3D F1 C2 AF 06 80 0B   49 1C 41 DD CC 33 BC 05  .=......I.A..3..
+0010: E2 A5 97 1A 25 BB A0 9D   35 82 2F FD 46 91 CB 2D  ....%...5./.F..-
+Server write key:
+0000: FD 85 DA B3 D3 7D 63 D9   1A B8 BE E7 11 AE B5 CB  ......c.........
+0010: 02 E5 45 87 07 31 B4 6B   17 82 D9 77 F6 80 C9 EF  ..E..1.k...w....
+... no IV derived for this protocol
+[write] MD5 and SHA1 hashes:  len = 85
+0000: 02 00 00 51 03 03 5B BB   72 68 9E B3 6F 40 DB AD  ...Q..[.rh..o@..
+0010: AF ED 08 96 12 F6 8F 23   8C 76 2D 5A C1 31 2D A4  .......#.v-Z.1-.
+0020: 68 2E F3 4F 73 3B 20 5B   BB 72 67 36 A5 BC DF 57  h..Os; [.rg6...W
+0030: 49 5D 9C D5 F3 6D 96 CD   DE 4B 59 7C CD 8C 5C 04  I]...m...KY...\.
+0040: 67 5A A6 66 EF D1 14 C0   28 00 00 09 FF 01 00 01  gZ.f....(.......
+0050: 00 00 17 00 00                                     .....
+main, WRITE: TLSv1.2 Handshake, length = 85
+[Raw write]: length = 90
+0000: 16 03 03 00 55 02 00 00   51 03 03 5B BB 72 68 9E  ....U...Q..[.rh.
+0010: B3 6F 40 DB AD AF ED 08   96 12 F6 8F 23 8C 76 2D  .o@.........#.v-
+0020: 5A C1 31 2D A4 68 2E F3   4F 73 3B 20 5B BB 72 67  Z.1-.h..Os; [.rg
+0030: 36 A5 BC DF 57 49 5D 9C   D5 F3 6D 96 CD DE 4B 59  6...WI]...m...KY
+0040: 7C CD 8C 5C 04 67 5A A6   66 EF D1 14 C0 28 00 00  ...\.gZ.f....(..
+0050: 09 FF 01 00 01 00 00 17   00 00                    ..........
+main, WRITE: TLSv1.2 Change Cipher Spec, length = 1
+[Raw write]: length = 6
+0000: 14 03 03 00 01 01                                  ......
+*** Finished
+verify_data:  { 38, 149, 248, 147, 73, 103, 206, 5, 85, 236, 166, 28 }
+***
+[write] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C 26 95 F8 93   49 67 CE 05 55 EC A6 1C  ....&...Ig..U...
+Padded plaintext before ENCRYPTION:  len = 96
+0000: 68 B7 61 34 C4 B5 48 64   0E D0 0A 55 A9 A0 91 6E  h.a4..Hd...U...n
+0010: 14 00 00 0C 26 95 F8 93   49 67 CE 05 55 EC A6 1C  ....&...Ig..U...
+0020: 8C DE B4 79 78 AC 64 E6   52 87 9F D2 C3 B1 EF ED  ...yx.d.R.......
+0030: 4F 81 D5 00 AF 9F 5F B3   50 4D 66 6D 17 F3 74 EC  O....._.PMfm..t.
+0040: 37 D8 92 BB 7C D3 F1 90   62 C0 C6 BB F0 87 14 36  7.......b......6
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+main, WRITE: TLSv1.2 Handshake, length = 96
+[Raw write]: length = 101
+0000: 16 03 03 00 60 5D DA 2E   5F AF 00 B0 69 1E 52 7E  ....`].._...i.R.
+0010: 69 3B C7 BF 95 9D DE D9   68 D9 08 1D 52 03 52 19  i;......h...R.R.
+0020: 86 16 78 0C 5D 72 63 F6   73 FA 4F C2 99 7E D9 CE  ..x.]rc.s.O.....
+0030: 2A 84 C4 8A 9F FC 64 EB   C7 68 D1 2B 52 00 F0 1F  *.....d..h.+R...
+0040: 88 09 66 F0 09 2D 68 02   11 BF 61 32 F0 32 30 15  ..f..-h...a2.20.
+0050: A0 26 5E 81 5C AD 3B 3B   36 F0 72 1D 36 FD 8C BE  .&^.\.;;6.r.6...
+0060: D3 B7 BC 11 EA                                     .....
+[Raw read]: length = 5
+0000: 14 03 03 00 01                                     .....
+[Raw read]: length = 1
+0000: 01                                                 .
+main, READ: TLSv1.2 Change Cipher Spec, length = 1
+[Raw read]: length = 5
+0000: 16 03 03 00 60                                     ....`
+[Raw read]: length = 96
+0000: 5A E7 31 29 07 15 32 61   57 04 73 B2 FE 61 E7 01  Z.1)..2aW.s..a..
+0010: 54 A7 8F 30 8F D7 67 05   76 DE E8 81 3D 64 CF 93  T..0..g.v...=d..
+0020: 03 38 3C 51 8A A2 C8 DF   07 37 FB 94 B6 37 81 B0  .8<Q.....7...7..
+0030: 8A 3A 92 79 7C 5A 89 B1   CF 92 55 CE 1A 7B DC CC  .:.y.Z....U.....
+0040: B5 BA D1 91 3A 8E 72 BB   67 3E CA 04 B5 49 6B 5E  ....:.r.g>...Ik^
+0050: 2A BD 64 DE 67 F5 98 1A   71 48 EB 34 F0 80 91 49  *.d.g...qH.4...I
+main, READ: TLSv1.2 Handshake, length = 96
+Padded plaintext after DECRYPTION:  len = 96
+0000: CB 08 50 C5 E3 86 F3 EC   5A 03 11 74 77 D4 A5 53  ..P.....Z..tw..S
+0010: 14 00 00 0C D6 B9 98 C3   C9 1E 2E E6 AE C2 80 E0  ................
+0020: E2 17 0D 72 9B B1 C9 BE   07 E6 80 06 C3 D4 E5 CD  ...r............
+0030: 61 3A 49 93 2A B2 FC 9E   BF 85 C9 B5 27 21 9C 98  a:I.*.......'!..
+0040: 5E 5F 80 D7 01 5C 80 FA   F9 8F 85 42 DB 22 83 95  ^_...\.....B."..
+0050: 0F 0F 0F 0F 0F 0F 0F 0F   0F 0F 0F 0F 0F 0F 0F 0F  ................
+*** Finished
+verify_data:  { 214, 185, 152, 195, 201, 30, 46, 230, 174, 194, 128, 224 }
+***
+[read] MD5 and SHA1 hashes:  len = 16
+0000: 14 00 00 0C D6 B9 98 C3   C9 1E 2E E6 AE C2 80 E0  ................
+
+ * * SSL Session Information - START * *
+
+1 {[�rg6���WI]���m���KY|͌\gZ�f��}
+1 Sessions
+
+ * * SSL Session Information - END * *
+
