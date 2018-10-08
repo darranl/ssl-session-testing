@@ -71,11 +71,64 @@
     </pluginManagement>
   </build>
 
-  <reporting>
-    <plugins>
-      <plugin>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </reporting>
+    <profiles>
+        <profile>
+            <id>Client</id>
+                <build>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.codehaus.mojo</groupId>
+                            <artifactId>exec-maven-plugin</artifactId>
+                            <version>1.6.0</version>
+                            <executions>
+                                <execution>
+                                    <goals>
+                                        <goal>java</goal>
+                                    </goals>
+                                </execution>
+                            </executions>
+                            <configuration>
+                                <executable>java</executable>
+                                <arguments>
+                                    <argument>-Djavax.net.debug=all</argument>
+                                    <argument>-classpath</argument>
+                                    <classpath />
+                                    <argument>org.wildfly.security.Client</argument>
+                                </arguments>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </build>
+        </profile>
+
+        <profile>
+            <id>Server</id>
+                <build>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.codehaus.mojo</groupId>
+                            <artifactId>exec-maven-plugin</artifactId>
+                            <version>1.6.0</version>
+                            <executions>
+                                <execution>
+                                    <goals>
+                                        <goal>java</goal>
+                                    </goals>
+                                </execution>
+                            </executions>
+                            <configuration>
+                                <executable>java</executable>
+                                <arguments>
+                                    <argument>-Djavax.net.debug=all</argument>
+                                    <argument>-classpath</argument>
+                                    <classpath />
+                                    <argument>org.wildfly.security.Server</argument>
+                                </arguments>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </build>
+        </profile>
+    </profiles>
+
 </project>
